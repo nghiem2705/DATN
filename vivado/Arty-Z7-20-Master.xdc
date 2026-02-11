@@ -4,26 +4,26 @@
 ## - rename the used ports (in each line, after get_ports) according to the top level signal names in the project
 
 ## Clock Signal
-#set_property -dict { PACKAGE_PIN H16    IOSTANDARD LVCMOS33 } [get_ports { clk }]; #IO_L13P_T2_MRCC_35 Sch=SYSCLK
+set_property -dict { PACKAGE_PIN H16    IOSTANDARD LVCMOS33 } [get_ports { clk }]; #IO_L13P_T2_MRCC_35 Sch=SYSCLK
 create_clock -period 3.500 -name sys_clk_pin -waveform {0.000 1.750} -add [get_ports clk]
 
 ## Switches
-#set_property -dict { PACKAGE_PIN M20    IOSTANDARD LVCMOS33 } [get_ports { sw[0] }]; #IO_L7N_T1_AD2N_35 Sch=SW0
+set_property -dict { PACKAGE_PIN M20    IOSTANDARD LVCMOS33 } [get_ports { en }]; #IO_L7N_T1_AD2N_35 Sch=SW0
 #set_property -dict { PACKAGE_PIN M19    IOSTANDARD LVCMOS33 } [get_ports { sw[1] }]; #IO_L7P_T1_AD2P_35 Sch=SW1
 
 ## RGB LEDs
-#set_property -dict { PACKAGE_PIN L15    IOSTANDARD LVCMOS33 } [get_ports { led4_b }]; #IO_L22N_T3_AD7P_35 Sch=LED4_B
-#set_property -dict { PACKAGE_PIN G17    IOSTANDARD LVCMOS33 } [get_ports { led4_g }]; #IO_L16P_T2_35 Sch=LED4_G
-#set_property -dict { PACKAGE_PIN N15    IOSTANDARD LVCMOS33 } [get_ports { led4_r }]; #IO_L21P_T3_DQS_AD14P_35 Sch=LED4_R
-#set_property -dict { PACKAGE_PIN G14    IOSTANDARD LVCMOS33 } [get_ports { led5_b }]; #IO_0_35 Sch=LED5_B
+set_property -dict { PACKAGE_PIN L15    IOSTANDARD LVCMOS33 } [get_ports { ran[4] }]; #IO_L22N_T3_AD7P_35 Sch=LED4_B
+set_property -dict { PACKAGE_PIN G17    IOSTANDARD LVCMOS33 } [get_ports { ran[5] }]; #IO_L16P_T2_35 Sch=LED4_G
+set_property -dict { PACKAGE_PIN N15    IOSTANDARD LVCMOS33 } [get_ports { ran[6] }]; #IO_L21P_T3_DQS_AD14P_35 Sch=LED4_R
+set_property -dict { PACKAGE_PIN G14    IOSTANDARD LVCMOS33 } [get_ports { ran[7] }]; #IO_0_35 Sch=LED5_B
 #set_property -dict { PACKAGE_PIN L14    IOSTANDARD LVCMOS33 } [get_ports { led5_g }]; #IO_L22P_T3_AD7P_35 Sch=LED5_G
 #set_property -dict { PACKAGE_PIN M15    IOSTANDARD LVCMOS33 } [get_ports { led5_r }]; #IO_L23N_T3_35 Sch=LED5_R
 
 ## LEDs
-#set_property -dict { PACKAGE_PIN R14    IOSTANDARD LVCMOS33 } [get_ports { led[0] }]; #IO_L6N_T0_VREF_34 Sch=LED0
-#set_property -dict { PACKAGE_PIN P14    IOSTANDARD LVCMOS33 } [get_ports { led[1] }]; #IO_L6P_T0_34 Sch=LED1
-#set_property -dict { PACKAGE_PIN N16    IOSTANDARD LVCMOS33 } [get_ports { led[2] }]; #IO_L21N_T3_DQS_AD14N_35 Sch=LED2
-#set_property -dict { PACKAGE_PIN M14    IOSTANDARD LVCMOS33 } [get_ports { led[3] }]; #IO_L23P_T3_35 Sch=LED3
+set_property -dict { PACKAGE_PIN R14    IOSTANDARD LVCMOS33 } [get_ports { ran[0] }]; #IO_L6N_T0_VREF_34 Sch=LED0
+set_property -dict { PACKAGE_PIN P14    IOSTANDARD LVCMOS33 } [get_ports { ran[1] }]; #IO_L6P_T0_34 Sch=LED1
+set_property -dict { PACKAGE_PIN N16    IOSTANDARD LVCMOS33 } [get_ports { ran[2] }]; #IO_L21N_T3_DQS_AD14N_35 Sch=LED2
+set_property -dict { PACKAGE_PIN M14    IOSTANDARD LVCMOS33 } [get_ports { ran[3] }]; #IO_L23P_T3_35 Sch=LED3
 
 ## Buttons
 #set_property -dict { PACKAGE_PIN D19    IOSTANDARD LVCMOS33 } [get_ports { btn[0] }]; #IO_L4P_T0_35 Sch=BTN0
@@ -184,3 +184,59 @@ create_clock -period 3.500 -name sys_clk_pin -waveform {0.000 1.750} -add [get_p
 #set_property PACKAGE_PIN T9 [get_ports {netic20_t9}]; #IO_L12P_T1_MRCC_13
 #set_property PACKAGE_PIN U9 [get_ports {netic20_u9}]; #IO_L17P_T2_13
 
+# Cho phép các vòng l?p ring_wire trong sub_ring_1 và sub_ring_2 c?a t?t c? các b? TRNG
+set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets -hierarchical -filter {NAME =~ *gen_trng[*]*ring_wire}]
+
+# Cho phép các vòng l?p w2 trong sub_ring_3 c?a t?t c? các b? TRNG
+set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets -hierarchical -filter {NAME =~ *gen_trng[*]*w2}]
+
+# Cho phép các vòng l?p ph?n h?i chéo t?i các c?ng XOR (xor1 và xor3)
+set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets -hierarchical -filter {NAME =~ *gen_trng[*]*xor1}]
+set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets -hierarchical -filter {NAME =~ *gen_trng[*]*xor3}]
+set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets -hierarchical -filter {NAME =~ *xor1}]
+set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets -hierarchical -filter {NAME =~ *xor2}]
+set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets -hierarchical -filter {NAME =~ *xor3}]
+set_property ALLOW_COMBINATORIAL_LOOPS TRUE [get_nets -hierarchical -filter {NAME =~ *xor4}]
+
+# H? th?p m?c ?? nghiêm tr?ng c?a l?i DRC LUTLP-1 xu?ng m?c C?nh báo (Warning) ?? có th? t?o Bitstream
+set_property SEVERITY {Warning} [get_drc_checks LUTLP-1]
+
+# --- B? s? 0: Góc Trái D??i ---
+create_pblock pblock_0
+add_cells_to_pblock [get_pblocks pblock_0] [get_cells gen_trng[0].u_trng]
+resize_pblock [get_pblocks pblock_0] -add {SLICE_X0Y0:SLICE_X10Y10}
+
+# --- B? s? 1: Góc Ph?i D??i ---
+create_pblock pblock_1
+add_cells_to_pblock [get_pblocks pblock_1] [get_cells gen_trng[1].u_trng]
+resize_pblock [get_pblocks pblock_1] -add {SLICE_X50Y0:SLICE_X60Y10}
+
+# --- B? s? 2: Góc Trái Trên ---
+create_pblock pblock_2
+add_cells_to_pblock [get_pblocks pblock_2] [get_cells gen_trng[2].u_trng]
+resize_pblock [get_pblocks pblock_2] -add {SLICE_X0Y75:SLICE_X10Y85}
+
+# --- B? s? 3: Góc Ph?i Trên ---
+create_pblock pblock_3
+add_cells_to_pblock [get_pblocks pblock_3] [get_cells gen_trng[3].u_trng]
+resize_pblock [get_pblocks pblock_3] -add {SLICE_X50Y75:SLICE_X60Y85}
+
+# --- B? s? 4: Gi?a Trái ---
+create_pblock pblock_4
+add_cells_to_pblock [get_pblocks pblock_4] [get_cells gen_trng[4].u_trng]
+resize_pblock [get_pblocks pblock_4] -add {SLICE_X0Y40:SLICE_X10Y50}
+
+# --- B? s? 5: Gi?a Ph?i ---
+create_pblock pblock_5
+add_cells_to_pblock [get_pblocks pblock_5] [get_cells gen_trng[5].u_trng]
+resize_pblock [get_pblocks pblock_5] -add {SLICE_X50Y40:SLICE_X60Y50}
+
+# --- B? s? 6: Gi?a Trên ---
+create_pblock pblock_6
+add_cells_to_pblock [get_pblocks pblock_6] [get_cells gen_trng[6].u_trng]
+resize_pblock [get_pblocks pblock_6] -add {SLICE_X25Y80:SLICE_X35Y90}
+
+# --- B? s? 7: Gi?a D??i ---
+create_pblock pblock_7
+add_cells_to_pblock [get_pblocks pblock_7] [get_cells gen_trng[7].u_trng]
+resize_pblock [get_pblocks pblock_7] -add {SLICE_X25Y0:SLICE_X35Y10}
