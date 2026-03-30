@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"s_trng_tb_time_impl.v" \
+"../../../../../../../../Chaos_Based_Symmetric_Image_Encryption/TRNG/s_trng_tb.v" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,2065 @@
+(DELAYFILE 
+(SDFVERSION "3.0" )
+(DESIGN "M_TRNG")
+(DATE "Mon Feb 23 18:49:31 2026")
+(VENDOR "XILINX")
+(PROGRAM "Vivado")
+(VERSION "2018.2")
+(DIVIDER /)
+(TIMESCALE 1ps)
+(CELL 
+  (CELLTYPE "BUFG")
+  (INSTANCE clk_IBUF_BUFG_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (91.0:101.0:101.0) (91.0:101.0:101.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE clk_IBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (1380.4:1450.7:1450.7) (1380.4:1450.7:1450.7))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE en_IBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (1471.1:1542.3:1542.3) (1471.1:1542.3:1542.3))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT4")
+  (INSTANCE gen_trng\[0\]\.u_trng/ran_INST_0)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I3 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[0\]\.u_trng/sub_1_1/nand_gate)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[0\]\.u_trng/sub_1_2/nand_gate)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[0\]\.u_trng/sub_3_1/nand_gate)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT1")
+  (INSTANCE gen_trng\[0\]\.u_trng/sub_3_1/not1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT1")
+  (INSTANCE gen_trng\[0\]\.u_trng/sub_3_1/not2)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[0\]\.u_trng/sub_3_2/nand_gate)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT1")
+  (INSTANCE gen_trng\[0\]\.u_trng/sub_3_2/not1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT1")
+  (INSTANCE gen_trng\[0\]\.u_trng/sub_3_2/not2)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE gen_trng\[0\]\.u_trng/xor1_tmp_reg)
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE gen_trng\[0\]\.u_trng/xor2_tmp_reg)
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE gen_trng\[0\]\.u_trng/xor3_tmp_reg)
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE gen_trng\[0\]\.u_trng/xor4_tmp_reg)
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[0\]\.u_trng/xor_gate1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[0\]\.u_trng/xor_gate2)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[0\]\.u_trng/xor_gate3)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[0\]\.u_trng/xor_gate4)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT4")
+  (INSTANCE gen_trng\[1\]\.u_trng/ran_INST_0)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I3 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[1\]\.u_trng/sub_1_1/nand_gate)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[1\]\.u_trng/sub_1_2/nand_gate)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[1\]\.u_trng/sub_3_1/nand_gate)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT1")
+  (INSTANCE gen_trng\[1\]\.u_trng/sub_3_1/not1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT1")
+  (INSTANCE gen_trng\[1\]\.u_trng/sub_3_1/not2)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[1\]\.u_trng/sub_3_2/nand_gate)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT1")
+  (INSTANCE gen_trng\[1\]\.u_trng/sub_3_2/not1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT1")
+  (INSTANCE gen_trng\[1\]\.u_trng/sub_3_2/not2)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE gen_trng\[1\]\.u_trng/xor1_tmp_reg)
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE gen_trng\[1\]\.u_trng/xor2_tmp_reg)
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE gen_trng\[1\]\.u_trng/xor3_tmp_reg)
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE gen_trng\[1\]\.u_trng/xor4_tmp_reg)
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[1\]\.u_trng/xor_gate1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[1\]\.u_trng/xor_gate2)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[1\]\.u_trng/xor_gate3)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[1\]\.u_trng/xor_gate4)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT4")
+  (INSTANCE gen_trng\[2\]\.u_trng/ran_INST_0)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I3 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[2\]\.u_trng/sub_1_1/nand_gate)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[2\]\.u_trng/sub_1_2/nand_gate)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[2\]\.u_trng/sub_3_1/nand_gate)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT1")
+  (INSTANCE gen_trng\[2\]\.u_trng/sub_3_1/not1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT1")
+  (INSTANCE gen_trng\[2\]\.u_trng/sub_3_1/not2)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[2\]\.u_trng/sub_3_2/nand_gate)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT1")
+  (INSTANCE gen_trng\[2\]\.u_trng/sub_3_2/not1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT1")
+  (INSTANCE gen_trng\[2\]\.u_trng/sub_3_2/not2)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE gen_trng\[2\]\.u_trng/xor1_tmp_reg)
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (292.0:362.0:362.0) (292.0:362.0:362.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-5.0:-5.0:-5.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-5.0:-5.0:-5.0))
+      (SETUPHOLD (posedge D) (posedge C) (-74.0:-60.0:-60.0) (262.0:262.0:262.0))
+      (SETUPHOLD (negedge D) (posedge C) (-74.0:-60.0:-60.0) (262.0:262.0:262.0))
+      (SETUPHOLD (posedge R) (posedge C) (445.0:552.0:552.0) (-41.0:-41.0:-41.0))
+      (SETUPHOLD (negedge R) (posedge C) (445.0:552.0:552.0) (-41.0:-41.0:-41.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE gen_trng\[2\]\.u_trng/xor2_tmp_reg)
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (292.0:362.0:362.0) (292.0:362.0:362.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-5.0:-5.0:-5.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-5.0:-5.0:-5.0))
+      (SETUPHOLD (posedge D) (posedge C) (-74.0:-60.0:-60.0) (262.0:262.0:262.0))
+      (SETUPHOLD (negedge D) (posedge C) (-74.0:-60.0:-60.0) (262.0:262.0:262.0))
+      (SETUPHOLD (posedge R) (posedge C) (445.0:552.0:552.0) (-41.0:-41.0:-41.0))
+      (SETUPHOLD (negedge R) (posedge C) (445.0:552.0:552.0) (-41.0:-41.0:-41.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE gen_trng\[2\]\.u_trng/xor3_tmp_reg)
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (292.0:362.0:362.0) (292.0:362.0:362.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-5.0:-5.0:-5.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-5.0:-5.0:-5.0))
+      (SETUPHOLD (posedge D) (posedge C) (-74.0:-60.0:-60.0) (262.0:262.0:262.0))
+      (SETUPHOLD (negedge D) (posedge C) (-74.0:-60.0:-60.0) (262.0:262.0:262.0))
+      (SETUPHOLD (posedge R) (posedge C) (445.0:552.0:552.0) (-41.0:-41.0:-41.0))
+      (SETUPHOLD (negedge R) (posedge C) (445.0:552.0:552.0) (-41.0:-41.0:-41.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE gen_trng\[2\]\.u_trng/xor4_tmp_reg)
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (292.0:362.0:362.0) (292.0:362.0:362.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-5.0:-5.0:-5.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-5.0:-5.0:-5.0))
+      (SETUPHOLD (posedge D) (posedge C) (-74.0:-60.0:-60.0) (262.0:262.0:262.0))
+      (SETUPHOLD (negedge D) (posedge C) (-74.0:-60.0:-60.0) (262.0:262.0:262.0))
+      (SETUPHOLD (posedge R) (posedge C) (445.0:552.0:552.0) (-41.0:-41.0:-41.0))
+      (SETUPHOLD (negedge R) (posedge C) (445.0:552.0:552.0) (-41.0:-41.0:-41.0))
+    )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[2\]\.u_trng/xor_gate1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[2\]\.u_trng/xor_gate2)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[2\]\.u_trng/xor_gate3)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[2\]\.u_trng/xor_gate4)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT4")
+  (INSTANCE gen_trng\[3\]\.u_trng/ran_INST_0)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I3 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[3\]\.u_trng/sub_1_1/nand_gate)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[3\]\.u_trng/sub_1_2/nand_gate)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[3\]\.u_trng/sub_3_1/nand_gate)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT1")
+  (INSTANCE gen_trng\[3\]\.u_trng/sub_3_1/not1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT1")
+  (INSTANCE gen_trng\[3\]\.u_trng/sub_3_1/not2)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[3\]\.u_trng/sub_3_2/nand_gate)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT1")
+  (INSTANCE gen_trng\[3\]\.u_trng/sub_3_2/not1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT1")
+  (INSTANCE gen_trng\[3\]\.u_trng/sub_3_2/not2)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE gen_trng\[3\]\.u_trng/xor1_tmp_reg)
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE gen_trng\[3\]\.u_trng/xor2_tmp_reg)
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE gen_trng\[3\]\.u_trng/xor3_tmp_reg)
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE gen_trng\[3\]\.u_trng/xor4_tmp_reg)
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[3\]\.u_trng/xor_gate1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[3\]\.u_trng/xor_gate2)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[3\]\.u_trng/xor_gate3)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[3\]\.u_trng/xor_gate4)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT4")
+  (INSTANCE gen_trng\[4\]\.u_trng/ran_INST_0)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I3 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[4\]\.u_trng/sub_1_1/nand_gate)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[4\]\.u_trng/sub_1_2/nand_gate)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[4\]\.u_trng/sub_3_1/nand_gate)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT1")
+  (INSTANCE gen_trng\[4\]\.u_trng/sub_3_1/not1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT1")
+  (INSTANCE gen_trng\[4\]\.u_trng/sub_3_1/not2)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[4\]\.u_trng/sub_3_2/nand_gate)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT1")
+  (INSTANCE gen_trng\[4\]\.u_trng/sub_3_2/not1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT1")
+  (INSTANCE gen_trng\[4\]\.u_trng/sub_3_2/not2)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE gen_trng\[4\]\.u_trng/xor1_tmp_reg)
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE gen_trng\[4\]\.u_trng/xor2_tmp_reg)
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE gen_trng\[4\]\.u_trng/xor3_tmp_reg)
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE gen_trng\[4\]\.u_trng/xor4_tmp_reg)
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[4\]\.u_trng/xor_gate1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[4\]\.u_trng/xor_gate2)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[4\]\.u_trng/xor_gate3)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[4\]\.u_trng/xor_gate4)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT4")
+  (INSTANCE gen_trng\[5\]\.u_trng/ran_INST_0)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I3 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[5\]\.u_trng/sub_1_1/nand_gate)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[5\]\.u_trng/sub_1_2/nand_gate)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[5\]\.u_trng/sub_3_1/nand_gate)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT1")
+  (INSTANCE gen_trng\[5\]\.u_trng/sub_3_1/not1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT1")
+  (INSTANCE gen_trng\[5\]\.u_trng/sub_3_1/not2)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[5\]\.u_trng/sub_3_2/nand_gate)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT1")
+  (INSTANCE gen_trng\[5\]\.u_trng/sub_3_2/not1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT1")
+  (INSTANCE gen_trng\[5\]\.u_trng/sub_3_2/not2)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE gen_trng\[5\]\.u_trng/xor1_tmp_reg)
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE gen_trng\[5\]\.u_trng/xor2_tmp_reg)
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE gen_trng\[5\]\.u_trng/xor3_tmp_reg)
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE gen_trng\[5\]\.u_trng/xor4_tmp_reg)
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[5\]\.u_trng/xor_gate1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[5\]\.u_trng/xor_gate2)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[5\]\.u_trng/xor_gate3)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[5\]\.u_trng/xor_gate4)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT4")
+  (INSTANCE gen_trng\[6\]\.u_trng/ran_INST_0)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I3 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[6\]\.u_trng/sub_1_1/nand_gate)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[6\]\.u_trng/sub_1_2/nand_gate)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[6\]\.u_trng/sub_3_1/nand_gate)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT1")
+  (INSTANCE gen_trng\[6\]\.u_trng/sub_3_1/not1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT1")
+  (INSTANCE gen_trng\[6\]\.u_trng/sub_3_1/not2)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[6\]\.u_trng/sub_3_2/nand_gate)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT1")
+  (INSTANCE gen_trng\[6\]\.u_trng/sub_3_2/not1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT1")
+  (INSTANCE gen_trng\[6\]\.u_trng/sub_3_2/not2)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE gen_trng\[6\]\.u_trng/xor1_tmp_reg)
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE gen_trng\[6\]\.u_trng/xor2_tmp_reg)
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE gen_trng\[6\]\.u_trng/xor3_tmp_reg)
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE gen_trng\[6\]\.u_trng/xor4_tmp_reg)
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[6\]\.u_trng/xor_gate1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[6\]\.u_trng/xor_gate2)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[6\]\.u_trng/xor_gate3)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[6\]\.u_trng/xor_gate4)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT4")
+  (INSTANCE gen_trng\[7\]\.u_trng/ran_INST_0)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I3 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[7\]\.u_trng/sub_1_1/nand_gate)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[7\]\.u_trng/sub_1_2/nand_gate)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[7\]\.u_trng/sub_3_1/nand_gate)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT1")
+  (INSTANCE gen_trng\[7\]\.u_trng/sub_3_1/not1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT1")
+  (INSTANCE gen_trng\[7\]\.u_trng/sub_3_1/not2)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[7\]\.u_trng/sub_3_2/nand_gate)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT1")
+  (INSTANCE gen_trng\[7\]\.u_trng/sub_3_2/not1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT1")
+  (INSTANCE gen_trng\[7\]\.u_trng/sub_3_2/not2)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE gen_trng\[7\]\.u_trng/xor1_tmp_reg)
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE gen_trng\[7\]\.u_trng/xor2_tmp_reg)
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE gen_trng\[7\]\.u_trng/xor3_tmp_reg)
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE gen_trng\[7\]\.u_trng/xor4_tmp_reg)
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[7\]\.u_trng/xor_gate1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[7\]\.u_trng/xor_gate2)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[7\]\.u_trng/xor_gate3)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE gen_trng\[7\]\.u_trng/xor_gate4)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE ran_OBUF\[0\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3326.6:3528.8:3528.8) (3326.6:3528.8:3528.8))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE ran_OBUF\[1\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3353.9:3556.3:3556.3) (3353.9:3556.3:3556.3))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE ran_OBUF\[2\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3368.8:3571.4:3571.4) (3368.8:3571.4:3571.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE ran_OBUF\[3\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3377.3:3580.0:3580.0) (3377.3:3580.0:3580.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE ran_OBUF\[4\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3368.4:3571.1:3571.1) (3368.4:3571.1:3571.1))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE ran_OBUF\[5\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3309.8:3511.9:3511.9) (3309.8:3511.9:3511.9))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE ran_OBUF\[6\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3371.3:3574.0:3574.0) (3371.3:3574.0:3574.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE ran_OBUF\[7\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3297.4:3499.3:3499.3) (3297.4:3499.3:3499.3))
+    )
+  )
+)
+(CELL 
+    (CELLTYPE "M_TRNG")
+    (INSTANCE )
+    (DELAY
+      (ABSOLUTE
+      (INTERCONNECT clk_IBUF_BUFG_inst/O gen_trng\[0\]\.u_trng/xor1_tmp_reg/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O gen_trng\[0\]\.u_trng/xor2_tmp_reg/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O gen_trng\[0\]\.u_trng/xor3_tmp_reg/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O gen_trng\[0\]\.u_trng/xor4_tmp_reg/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O gen_trng\[1\]\.u_trng/xor1_tmp_reg/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O gen_trng\[1\]\.u_trng/xor2_tmp_reg/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O gen_trng\[1\]\.u_trng/xor3_tmp_reg/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O gen_trng\[1\]\.u_trng/xor4_tmp_reg/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O gen_trng\[2\]\.u_trng/xor1_tmp_reg/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O gen_trng\[2\]\.u_trng/xor2_tmp_reg/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O gen_trng\[2\]\.u_trng/xor3_tmp_reg/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O gen_trng\[2\]\.u_trng/xor4_tmp_reg/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O gen_trng\[3\]\.u_trng/xor1_tmp_reg/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O gen_trng\[3\]\.u_trng/xor2_tmp_reg/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O gen_trng\[3\]\.u_trng/xor3_tmp_reg/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O gen_trng\[3\]\.u_trng/xor4_tmp_reg/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O gen_trng\[4\]\.u_trng/xor1_tmp_reg/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O gen_trng\[4\]\.u_trng/xor2_tmp_reg/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O gen_trng\[4\]\.u_trng/xor3_tmp_reg/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O gen_trng\[4\]\.u_trng/xor4_tmp_reg/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O gen_trng\[5\]\.u_trng/xor1_tmp_reg/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O gen_trng\[5\]\.u_trng/xor2_tmp_reg/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O gen_trng\[5\]\.u_trng/xor3_tmp_reg/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O gen_trng\[5\]\.u_trng/xor4_tmp_reg/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O gen_trng\[6\]\.u_trng/xor1_tmp_reg/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O gen_trng\[6\]\.u_trng/xor2_tmp_reg/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O gen_trng\[6\]\.u_trng/xor3_tmp_reg/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O gen_trng\[6\]\.u_trng/xor4_tmp_reg/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O gen_trng\[7\]\.u_trng/xor1_tmp_reg/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O gen_trng\[7\]\.u_trng/xor2_tmp_reg/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O gen_trng\[7\]\.u_trng/xor3_tmp_reg/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O gen_trng\[7\]\.u_trng/xor4_tmp_reg/C (439.0:584.0:584.0) (439.0:584.0:584.0))
+      (INTERCONNECT clk_IBUF_inst/O clk_IBUF_BUFG_inst/I (759.7:799.7:799.7) (759.7:799.7:799.7))
+      (INTERCONNECT en_IBUF_inst/O gen_trng\[0\]\.u_trng/sub_1_1/nand_gate/I1 (759.7:799.7:799.7) (759.7:799.7:799.7))
+      (INTERCONNECT en_IBUF_inst/O gen_trng\[0\]\.u_trng/sub_1_2/nand_gate/I1 (759.7:799.7:799.7) (759.7:799.7:799.7))
+      (INTERCONNECT en_IBUF_inst/O gen_trng\[0\]\.u_trng/sub_3_1/nand_gate/I1 (759.7:799.7:799.7) (759.7:799.7:799.7))
+      (INTERCONNECT en_IBUF_inst/O gen_trng\[0\]\.u_trng/sub_3_2/nand_gate/I1 (759.7:799.7:799.7) (759.7:799.7:799.7))
+      (INTERCONNECT en_IBUF_inst/O gen_trng\[1\]\.u_trng/sub_1_1/nand_gate/I1 (759.7:799.7:799.7) (759.7:799.7:799.7))
+      (INTERCONNECT en_IBUF_inst/O gen_trng\[1\]\.u_trng/sub_1_2/nand_gate/I1 (759.7:799.7:799.7) (759.7:799.7:799.7))
+      (INTERCONNECT en_IBUF_inst/O gen_trng\[1\]\.u_trng/sub_3_1/nand_gate/I1 (759.7:799.7:799.7) (759.7:799.7:799.7))
+      (INTERCONNECT en_IBUF_inst/O gen_trng\[1\]\.u_trng/sub_3_2/nand_gate/I1 (759.7:799.7:799.7) (759.7:799.7:799.7))
+      (INTERCONNECT en_IBUF_inst/O gen_trng\[2\]\.u_trng/sub_1_1/nand_gate/I1 (759.7:799.7:799.7) (759.7:799.7:799.7))
+      (INTERCONNECT en_IBUF_inst/O gen_trng\[2\]\.u_trng/sub_1_2/nand_gate/I1 (759.7:799.7:799.7) (759.7:799.7:799.7))
+      (INTERCONNECT en_IBUF_inst/O gen_trng\[2\]\.u_trng/sub_3_1/nand_gate/I1 (759.7:799.7:799.7) (759.7:799.7:799.7))
+      (INTERCONNECT en_IBUF_inst/O gen_trng\[2\]\.u_trng/sub_3_2/nand_gate/I1 (759.7:799.7:799.7) (759.7:799.7:799.7))
+      (INTERCONNECT en_IBUF_inst/O gen_trng\[3\]\.u_trng/sub_1_1/nand_gate/I1 (759.7:799.7:799.7) (759.7:799.7:799.7))
+      (INTERCONNECT en_IBUF_inst/O gen_trng\[3\]\.u_trng/sub_1_2/nand_gate/I1 (759.7:799.7:799.7) (759.7:799.7:799.7))
+      (INTERCONNECT en_IBUF_inst/O gen_trng\[3\]\.u_trng/sub_3_1/nand_gate/I1 (759.7:799.7:799.7) (759.7:799.7:799.7))
+      (INTERCONNECT en_IBUF_inst/O gen_trng\[3\]\.u_trng/sub_3_2/nand_gate/I1 (759.7:799.7:799.7) (759.7:799.7:799.7))
+      (INTERCONNECT en_IBUF_inst/O gen_trng\[4\]\.u_trng/sub_1_1/nand_gate/I1 (759.7:799.7:799.7) (759.7:799.7:799.7))
+      (INTERCONNECT en_IBUF_inst/O gen_trng\[4\]\.u_trng/sub_1_2/nand_gate/I1 (759.7:799.7:799.7) (759.7:799.7:799.7))
+      (INTERCONNECT en_IBUF_inst/O gen_trng\[4\]\.u_trng/sub_3_1/nand_gate/I1 (759.7:799.7:799.7) (759.7:799.7:799.7))
+      (INTERCONNECT en_IBUF_inst/O gen_trng\[4\]\.u_trng/sub_3_2/nand_gate/I1 (759.7:799.7:799.7) (759.7:799.7:799.7))
+      (INTERCONNECT en_IBUF_inst/O gen_trng\[5\]\.u_trng/sub_1_1/nand_gate/I1 (759.7:799.7:799.7) (759.7:799.7:799.7))
+      (INTERCONNECT en_IBUF_inst/O gen_trng\[5\]\.u_trng/sub_1_2/nand_gate/I1 (759.7:799.7:799.7) (759.7:799.7:799.7))
+      (INTERCONNECT en_IBUF_inst/O gen_trng\[5\]\.u_trng/sub_3_1/nand_gate/I1 (759.7:799.7:799.7) (759.7:799.7:799.7))
+      (INTERCONNECT en_IBUF_inst/O gen_trng\[5\]\.u_trng/sub_3_2/nand_gate/I1 (759.7:799.7:799.7) (759.7:799.7:799.7))
+      (INTERCONNECT en_IBUF_inst/O gen_trng\[6\]\.u_trng/sub_1_1/nand_gate/I1 (759.7:799.7:799.7) (759.7:799.7:799.7))
+      (INTERCONNECT en_IBUF_inst/O gen_trng\[6\]\.u_trng/sub_1_2/nand_gate/I1 (759.7:799.7:799.7) (759.7:799.7:799.7))
+      (INTERCONNECT en_IBUF_inst/O gen_trng\[6\]\.u_trng/sub_3_1/nand_gate/I1 (759.7:799.7:799.7) (759.7:799.7:799.7))
+      (INTERCONNECT en_IBUF_inst/O gen_trng\[6\]\.u_trng/sub_3_2/nand_gate/I1 (759.7:799.7:799.7) (759.7:799.7:799.7))
+      (INTERCONNECT en_IBUF_inst/O gen_trng\[7\]\.u_trng/sub_1_1/nand_gate/I1 (759.7:799.7:799.7) (759.7:799.7:799.7))
+      (INTERCONNECT en_IBUF_inst/O gen_trng\[7\]\.u_trng/sub_1_2/nand_gate/I1 (759.7:799.7:799.7) (759.7:799.7:799.7))
+      (INTERCONNECT en_IBUF_inst/O gen_trng\[7\]\.u_trng/sub_3_1/nand_gate/I1 (759.7:799.7:799.7) (759.7:799.7:799.7))
+      (INTERCONNECT en_IBUF_inst/O gen_trng\[7\]\.u_trng/sub_3_2/nand_gate/I1 (759.7:799.7:799.7) (759.7:799.7:799.7))
+      (INTERCONNECT gen_trng\[0\]\.u_trng/ran_INST_0/O ran_OBUF\[0\]_inst/I (760.7:800.7:800.7) (760.7:800.7:800.7))
+      (INTERCONNECT gen_trng\[0\]\.u_trng/sub_1_1/nand_gate/O gen_trng\[0\]\.u_trng/xor_gate1/I0 (398.0:419.0:419.0) (398.0:419.0:419.0))
+      (INTERCONNECT gen_trng\[0\]\.u_trng/sub_1_1/nand_gate/O gen_trng\[0\]\.u_trng/sub_1_1/nand_gate/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[0\]\.u_trng/sub_1_2/nand_gate/O gen_trng\[0\]\.u_trng/xor_gate3/I0 (398.0:419.0:419.0) (398.0:419.0:419.0))
+      (INTERCONNECT gen_trng\[0\]\.u_trng/sub_1_2/nand_gate/O gen_trng\[0\]\.u_trng/sub_1_2/nand_gate/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[0\]\.u_trng/sub_3_1/nand_gate/O gen_trng\[0\]\.u_trng/sub_3_1/not1/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[0\]\.u_trng/sub_3_1/not1/O gen_trng\[0\]\.u_trng/sub_3_1/not2/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[0\]\.u_trng/sub_3_1/not2/O gen_trng\[0\]\.u_trng/xor_gate2/I1 (398.0:419.0:419.0) (398.0:419.0:419.0))
+      (INTERCONNECT gen_trng\[0\]\.u_trng/sub_3_1/not2/O gen_trng\[0\]\.u_trng/sub_3_1/nand_gate/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[0\]\.u_trng/sub_3_2/nand_gate/O gen_trng\[0\]\.u_trng/sub_3_2/not1/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[0\]\.u_trng/sub_3_2/not1/O gen_trng\[0\]\.u_trng/sub_3_2/not2/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[0\]\.u_trng/sub_3_2/not2/O gen_trng\[0\]\.u_trng/xor_gate4/I1 (398.0:419.0:419.0) (398.0:419.0:419.0))
+      (INTERCONNECT gen_trng\[0\]\.u_trng/sub_3_2/not2/O gen_trng\[0\]\.u_trng/sub_3_2/nand_gate/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[0\]\.u_trng/xor1_tmp_reg/Q gen_trng\[0\]\.u_trng/ran_INST_0/I2 (584.5:641.0:641.0) (584.5:641.0:641.0))
+      (INTERCONNECT gen_trng\[0\]\.u_trng/xor2_tmp_reg/Q gen_trng\[0\]\.u_trng/ran_INST_0/I1 (842.0:912.0:912.0) (842.0:912.0:912.0))
+      (INTERCONNECT gen_trng\[0\]\.u_trng/xor3_tmp_reg/Q gen_trng\[0\]\.u_trng/ran_INST_0/I0 (770.7:837.0:837.0) (770.7:837.0:837.0))
+      (INTERCONNECT gen_trng\[0\]\.u_trng/xor4_tmp_reg/Q gen_trng\[0\]\.u_trng/ran_INST_0/I3 (433.5:482.0:482.0) (433.5:482.0:482.0))
+      (INTERCONNECT gen_trng\[0\]\.u_trng/xor_gate1/O gen_trng\[0\]\.u_trng/xor1_tmp_reg/D (88.0:109.0:109.0) (88.0:109.0:109.0))
+      (INTERCONNECT gen_trng\[0\]\.u_trng/xor_gate1/O gen_trng\[0\]\.u_trng/xor_gate2/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[0\]\.u_trng/xor_gate2/O gen_trng\[0\]\.u_trng/xor2_tmp_reg/D (88.0:109.0:109.0) (88.0:109.0:109.0))
+      (INTERCONNECT gen_trng\[0\]\.u_trng/xor_gate2/O gen_trng\[0\]\.u_trng/xor_gate1/I1 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[0\]\.u_trng/xor_gate3/O gen_trng\[0\]\.u_trng/xor3_tmp_reg/D (88.0:109.0:109.0) (88.0:109.0:109.0))
+      (INTERCONNECT gen_trng\[0\]\.u_trng/xor_gate3/O gen_trng\[0\]\.u_trng/xor_gate4/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[0\]\.u_trng/xor_gate4/O gen_trng\[0\]\.u_trng/xor4_tmp_reg/D (88.0:109.0:109.0) (88.0:109.0:109.0))
+      (INTERCONNECT gen_trng\[0\]\.u_trng/xor_gate4/O gen_trng\[0\]\.u_trng/xor_gate3/I1 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[1\]\.u_trng/ran_INST_0/O ran_OBUF\[1\]_inst/I (760.7:800.7:800.7) (760.7:800.7:800.7))
+      (INTERCONNECT gen_trng\[1\]\.u_trng/sub_1_1/nand_gate/O gen_trng\[1\]\.u_trng/xor_gate1/I0 (398.0:419.0:419.0) (398.0:419.0:419.0))
+      (INTERCONNECT gen_trng\[1\]\.u_trng/sub_1_1/nand_gate/O gen_trng\[1\]\.u_trng/sub_1_1/nand_gate/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[1\]\.u_trng/sub_1_2/nand_gate/O gen_trng\[1\]\.u_trng/xor_gate3/I0 (398.0:419.0:419.0) (398.0:419.0:419.0))
+      (INTERCONNECT gen_trng\[1\]\.u_trng/sub_1_2/nand_gate/O gen_trng\[1\]\.u_trng/sub_1_2/nand_gate/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[1\]\.u_trng/sub_3_1/nand_gate/O gen_trng\[1\]\.u_trng/sub_3_1/not1/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[1\]\.u_trng/sub_3_1/not1/O gen_trng\[1\]\.u_trng/sub_3_1/not2/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[1\]\.u_trng/sub_3_1/not2/O gen_trng\[1\]\.u_trng/xor_gate2/I1 (398.0:419.0:419.0) (398.0:419.0:419.0))
+      (INTERCONNECT gen_trng\[1\]\.u_trng/sub_3_1/not2/O gen_trng\[1\]\.u_trng/sub_3_1/nand_gate/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[1\]\.u_trng/sub_3_2/nand_gate/O gen_trng\[1\]\.u_trng/sub_3_2/not1/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[1\]\.u_trng/sub_3_2/not1/O gen_trng\[1\]\.u_trng/sub_3_2/not2/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[1\]\.u_trng/sub_3_2/not2/O gen_trng\[1\]\.u_trng/xor_gate4/I1 (398.0:419.0:419.0) (398.0:419.0:419.0))
+      (INTERCONNECT gen_trng\[1\]\.u_trng/sub_3_2/not2/O gen_trng\[1\]\.u_trng/sub_3_2/nand_gate/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[1\]\.u_trng/xor1_tmp_reg/Q gen_trng\[1\]\.u_trng/ran_INST_0/I2 (584.5:641.0:641.0) (584.5:641.0:641.0))
+      (INTERCONNECT gen_trng\[1\]\.u_trng/xor2_tmp_reg/Q gen_trng\[1\]\.u_trng/ran_INST_0/I1 (842.0:912.0:912.0) (842.0:912.0:912.0))
+      (INTERCONNECT gen_trng\[1\]\.u_trng/xor3_tmp_reg/Q gen_trng\[1\]\.u_trng/ran_INST_0/I0 (770.7:837.0:837.0) (770.7:837.0:837.0))
+      (INTERCONNECT gen_trng\[1\]\.u_trng/xor4_tmp_reg/Q gen_trng\[1\]\.u_trng/ran_INST_0/I3 (433.5:482.0:482.0) (433.5:482.0:482.0))
+      (INTERCONNECT gen_trng\[1\]\.u_trng/xor_gate1/O gen_trng\[1\]\.u_trng/xor1_tmp_reg/D (88.0:109.0:109.0) (88.0:109.0:109.0))
+      (INTERCONNECT gen_trng\[1\]\.u_trng/xor_gate1/O gen_trng\[1\]\.u_trng/xor_gate2/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[1\]\.u_trng/xor_gate2/O gen_trng\[1\]\.u_trng/xor2_tmp_reg/D (88.0:109.0:109.0) (88.0:109.0:109.0))
+      (INTERCONNECT gen_trng\[1\]\.u_trng/xor_gate2/O gen_trng\[1\]\.u_trng/xor_gate1/I1 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[1\]\.u_trng/xor_gate3/O gen_trng\[1\]\.u_trng/xor3_tmp_reg/D (88.0:109.0:109.0) (88.0:109.0:109.0))
+      (INTERCONNECT gen_trng\[1\]\.u_trng/xor_gate3/O gen_trng\[1\]\.u_trng/xor_gate4/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[1\]\.u_trng/xor_gate4/O gen_trng\[1\]\.u_trng/xor4_tmp_reg/D (88.0:109.0:109.0) (88.0:109.0:109.0))
+      (INTERCONNECT gen_trng\[1\]\.u_trng/xor_gate4/O gen_trng\[1\]\.u_trng/xor_gate3/I1 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[2\]\.u_trng/ran_INST_0/O ran_OBUF\[2\]_inst/I (760.7:800.7:800.7) (760.7:800.7:800.7))
+      (INTERCONNECT gen_trng\[2\]\.u_trng/sub_1_1/nand_gate/O gen_trng\[2\]\.u_trng/xor_gate1/I0 (398.0:419.0:419.0) (398.0:419.0:419.0))
+      (INTERCONNECT gen_trng\[2\]\.u_trng/sub_1_1/nand_gate/O gen_trng\[2\]\.u_trng/sub_1_1/nand_gate/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[2\]\.u_trng/sub_1_2/nand_gate/O gen_trng\[2\]\.u_trng/xor_gate3/I0 (398.0:419.0:419.0) (398.0:419.0:419.0))
+      (INTERCONNECT gen_trng\[2\]\.u_trng/sub_1_2/nand_gate/O gen_trng\[2\]\.u_trng/sub_1_2/nand_gate/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[2\]\.u_trng/sub_3_1/nand_gate/O gen_trng\[2\]\.u_trng/sub_3_1/not1/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[2\]\.u_trng/sub_3_1/not1/O gen_trng\[2\]\.u_trng/sub_3_1/not2/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[2\]\.u_trng/sub_3_1/not2/O gen_trng\[2\]\.u_trng/xor_gate2/I1 (398.0:419.0:419.0) (398.0:419.0:419.0))
+      (INTERCONNECT gen_trng\[2\]\.u_trng/sub_3_1/not2/O gen_trng\[2\]\.u_trng/sub_3_1/nand_gate/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[2\]\.u_trng/sub_3_2/nand_gate/O gen_trng\[2\]\.u_trng/sub_3_2/not1/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[2\]\.u_trng/sub_3_2/not1/O gen_trng\[2\]\.u_trng/sub_3_2/not2/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[2\]\.u_trng/sub_3_2/not2/O gen_trng\[2\]\.u_trng/xor_gate4/I1 (398.0:419.0:419.0) (398.0:419.0:419.0))
+      (INTERCONNECT gen_trng\[2\]\.u_trng/sub_3_2/not2/O gen_trng\[2\]\.u_trng/sub_3_2/nand_gate/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[2\]\.u_trng/xor1_tmp_reg/Q gen_trng\[2\]\.u_trng/ran_INST_0/I2 (584.5:641.0:641.0) (584.5:641.0:641.0))
+      (INTERCONNECT gen_trng\[2\]\.u_trng/xor2_tmp_reg/Q gen_trng\[2\]\.u_trng/ran_INST_0/I1 (842.0:912.0:912.0) (842.0:912.0:912.0))
+      (INTERCONNECT gen_trng\[2\]\.u_trng/xor3_tmp_reg/Q gen_trng\[2\]\.u_trng/ran_INST_0/I0 (770.7:837.0:837.0) (770.7:837.0:837.0))
+      (INTERCONNECT gen_trng\[2\]\.u_trng/xor4_tmp_reg/Q gen_trng\[2\]\.u_trng/ran_INST_0/I3 (433.5:482.0:482.0) (433.5:482.0:482.0))
+      (INTERCONNECT gen_trng\[2\]\.u_trng/xor_gate1/O gen_trng\[2\]\.u_trng/xor1_tmp_reg/D (88.0:109.0:109.0) (88.0:109.0:109.0))
+      (INTERCONNECT gen_trng\[2\]\.u_trng/xor_gate1/O gen_trng\[2\]\.u_trng/xor_gate2/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[2\]\.u_trng/xor_gate2/O gen_trng\[2\]\.u_trng/xor2_tmp_reg/D (88.0:109.0:109.0) (88.0:109.0:109.0))
+      (INTERCONNECT gen_trng\[2\]\.u_trng/xor_gate2/O gen_trng\[2\]\.u_trng/xor_gate1/I1 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[2\]\.u_trng/xor_gate3/O gen_trng\[2\]\.u_trng/xor3_tmp_reg/D (88.0:109.0:109.0) (88.0:109.0:109.0))
+      (INTERCONNECT gen_trng\[2\]\.u_trng/xor_gate3/O gen_trng\[2\]\.u_trng/xor_gate4/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[2\]\.u_trng/xor_gate4/O gen_trng\[2\]\.u_trng/xor4_tmp_reg/D (88.0:109.0:109.0) (88.0:109.0:109.0))
+      (INTERCONNECT gen_trng\[2\]\.u_trng/xor_gate4/O gen_trng\[2\]\.u_trng/xor_gate3/I1 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[3\]\.u_trng/ran_INST_0/O ran_OBUF\[3\]_inst/I (760.7:800.7:800.7) (760.7:800.7:800.7))
+      (INTERCONNECT gen_trng\[3\]\.u_trng/sub_1_1/nand_gate/O gen_trng\[3\]\.u_trng/xor_gate1/I0 (398.0:419.0:419.0) (398.0:419.0:419.0))
+      (INTERCONNECT gen_trng\[3\]\.u_trng/sub_1_1/nand_gate/O gen_trng\[3\]\.u_trng/sub_1_1/nand_gate/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[3\]\.u_trng/sub_1_2/nand_gate/O gen_trng\[3\]\.u_trng/xor_gate3/I0 (398.0:419.0:419.0) (398.0:419.0:419.0))
+      (INTERCONNECT gen_trng\[3\]\.u_trng/sub_1_2/nand_gate/O gen_trng\[3\]\.u_trng/sub_1_2/nand_gate/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[3\]\.u_trng/sub_3_1/nand_gate/O gen_trng\[3\]\.u_trng/sub_3_1/not1/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[3\]\.u_trng/sub_3_1/not1/O gen_trng\[3\]\.u_trng/sub_3_1/not2/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[3\]\.u_trng/sub_3_1/not2/O gen_trng\[3\]\.u_trng/xor_gate2/I1 (398.0:419.0:419.0) (398.0:419.0:419.0))
+      (INTERCONNECT gen_trng\[3\]\.u_trng/sub_3_1/not2/O gen_trng\[3\]\.u_trng/sub_3_1/nand_gate/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[3\]\.u_trng/sub_3_2/nand_gate/O gen_trng\[3\]\.u_trng/sub_3_2/not1/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[3\]\.u_trng/sub_3_2/not1/O gen_trng\[3\]\.u_trng/sub_3_2/not2/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[3\]\.u_trng/sub_3_2/not2/O gen_trng\[3\]\.u_trng/xor_gate4/I1 (398.0:419.0:419.0) (398.0:419.0:419.0))
+      (INTERCONNECT gen_trng\[3\]\.u_trng/sub_3_2/not2/O gen_trng\[3\]\.u_trng/sub_3_2/nand_gate/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[3\]\.u_trng/xor1_tmp_reg/Q gen_trng\[3\]\.u_trng/ran_INST_0/I2 (584.5:641.0:641.0) (584.5:641.0:641.0))
+      (INTERCONNECT gen_trng\[3\]\.u_trng/xor2_tmp_reg/Q gen_trng\[3\]\.u_trng/ran_INST_0/I1 (842.0:912.0:912.0) (842.0:912.0:912.0))
+      (INTERCONNECT gen_trng\[3\]\.u_trng/xor3_tmp_reg/Q gen_trng\[3\]\.u_trng/ran_INST_0/I0 (770.7:837.0:837.0) (770.7:837.0:837.0))
+      (INTERCONNECT gen_trng\[3\]\.u_trng/xor4_tmp_reg/Q gen_trng\[3\]\.u_trng/ran_INST_0/I3 (433.5:482.0:482.0) (433.5:482.0:482.0))
+      (INTERCONNECT gen_trng\[3\]\.u_trng/xor_gate1/O gen_trng\[3\]\.u_trng/xor1_tmp_reg/D (88.0:109.0:109.0) (88.0:109.0:109.0))
+      (INTERCONNECT gen_trng\[3\]\.u_trng/xor_gate1/O gen_trng\[3\]\.u_trng/xor_gate2/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[3\]\.u_trng/xor_gate2/O gen_trng\[3\]\.u_trng/xor2_tmp_reg/D (88.0:109.0:109.0) (88.0:109.0:109.0))
+      (INTERCONNECT gen_trng\[3\]\.u_trng/xor_gate2/O gen_trng\[3\]\.u_trng/xor_gate1/I1 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[3\]\.u_trng/xor_gate3/O gen_trng\[3\]\.u_trng/xor3_tmp_reg/D (88.0:109.0:109.0) (88.0:109.0:109.0))
+      (INTERCONNECT gen_trng\[3\]\.u_trng/xor_gate3/O gen_trng\[3\]\.u_trng/xor_gate4/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[3\]\.u_trng/xor_gate4/O gen_trng\[3\]\.u_trng/xor4_tmp_reg/D (88.0:109.0:109.0) (88.0:109.0:109.0))
+      (INTERCONNECT gen_trng\[3\]\.u_trng/xor_gate4/O gen_trng\[3\]\.u_trng/xor_gate3/I1 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[4\]\.u_trng/ran_INST_0/O ran_OBUF\[4\]_inst/I (760.7:800.7:800.7) (760.7:800.7:800.7))
+      (INTERCONNECT gen_trng\[4\]\.u_trng/sub_1_1/nand_gate/O gen_trng\[4\]\.u_trng/xor_gate1/I0 (398.0:419.0:419.0) (398.0:419.0:419.0))
+      (INTERCONNECT gen_trng\[4\]\.u_trng/sub_1_1/nand_gate/O gen_trng\[4\]\.u_trng/sub_1_1/nand_gate/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[4\]\.u_trng/sub_1_2/nand_gate/O gen_trng\[4\]\.u_trng/xor_gate3/I0 (398.0:419.0:419.0) (398.0:419.0:419.0))
+      (INTERCONNECT gen_trng\[4\]\.u_trng/sub_1_2/nand_gate/O gen_trng\[4\]\.u_trng/sub_1_2/nand_gate/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[4\]\.u_trng/sub_3_1/nand_gate/O gen_trng\[4\]\.u_trng/sub_3_1/not1/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[4\]\.u_trng/sub_3_1/not1/O gen_trng\[4\]\.u_trng/sub_3_1/not2/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[4\]\.u_trng/sub_3_1/not2/O gen_trng\[4\]\.u_trng/xor_gate2/I1 (398.0:419.0:419.0) (398.0:419.0:419.0))
+      (INTERCONNECT gen_trng\[4\]\.u_trng/sub_3_1/not2/O gen_trng\[4\]\.u_trng/sub_3_1/nand_gate/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[4\]\.u_trng/sub_3_2/nand_gate/O gen_trng\[4\]\.u_trng/sub_3_2/not1/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[4\]\.u_trng/sub_3_2/not1/O gen_trng\[4\]\.u_trng/sub_3_2/not2/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[4\]\.u_trng/sub_3_2/not2/O gen_trng\[4\]\.u_trng/xor_gate4/I1 (398.0:419.0:419.0) (398.0:419.0:419.0))
+      (INTERCONNECT gen_trng\[4\]\.u_trng/sub_3_2/not2/O gen_trng\[4\]\.u_trng/sub_3_2/nand_gate/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[4\]\.u_trng/xor1_tmp_reg/Q gen_trng\[4\]\.u_trng/ran_INST_0/I2 (584.5:641.0:641.0) (584.5:641.0:641.0))
+      (INTERCONNECT gen_trng\[4\]\.u_trng/xor2_tmp_reg/Q gen_trng\[4\]\.u_trng/ran_INST_0/I1 (842.0:912.0:912.0) (842.0:912.0:912.0))
+      (INTERCONNECT gen_trng\[4\]\.u_trng/xor3_tmp_reg/Q gen_trng\[4\]\.u_trng/ran_INST_0/I0 (770.7:837.0:837.0) (770.7:837.0:837.0))
+      (INTERCONNECT gen_trng\[4\]\.u_trng/xor4_tmp_reg/Q gen_trng\[4\]\.u_trng/ran_INST_0/I3 (433.5:482.0:482.0) (433.5:482.0:482.0))
+      (INTERCONNECT gen_trng\[4\]\.u_trng/xor_gate1/O gen_trng\[4\]\.u_trng/xor1_tmp_reg/D (88.0:109.0:109.0) (88.0:109.0:109.0))
+      (INTERCONNECT gen_trng\[4\]\.u_trng/xor_gate1/O gen_trng\[4\]\.u_trng/xor_gate2/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[4\]\.u_trng/xor_gate2/O gen_trng\[4\]\.u_trng/xor2_tmp_reg/D (88.0:109.0:109.0) (88.0:109.0:109.0))
+      (INTERCONNECT gen_trng\[4\]\.u_trng/xor_gate2/O gen_trng\[4\]\.u_trng/xor_gate1/I1 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[4\]\.u_trng/xor_gate3/O gen_trng\[4\]\.u_trng/xor3_tmp_reg/D (88.0:109.0:109.0) (88.0:109.0:109.0))
+      (INTERCONNECT gen_trng\[4\]\.u_trng/xor_gate3/O gen_trng\[4\]\.u_trng/xor_gate4/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[4\]\.u_trng/xor_gate4/O gen_trng\[4\]\.u_trng/xor4_tmp_reg/D (88.0:109.0:109.0) (88.0:109.0:109.0))
+      (INTERCONNECT gen_trng\[4\]\.u_trng/xor_gate4/O gen_trng\[4\]\.u_trng/xor_gate3/I1 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[5\]\.u_trng/ran_INST_0/O ran_OBUF\[5\]_inst/I (760.7:800.7:800.7) (760.7:800.7:800.7))
+      (INTERCONNECT gen_trng\[5\]\.u_trng/sub_1_1/nand_gate/O gen_trng\[5\]\.u_trng/xor_gate1/I0 (398.0:419.0:419.0) (398.0:419.0:419.0))
+      (INTERCONNECT gen_trng\[5\]\.u_trng/sub_1_1/nand_gate/O gen_trng\[5\]\.u_trng/sub_1_1/nand_gate/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[5\]\.u_trng/sub_1_2/nand_gate/O gen_trng\[5\]\.u_trng/xor_gate3/I0 (398.0:419.0:419.0) (398.0:419.0:419.0))
+      (INTERCONNECT gen_trng\[5\]\.u_trng/sub_1_2/nand_gate/O gen_trng\[5\]\.u_trng/sub_1_2/nand_gate/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[5\]\.u_trng/sub_3_1/nand_gate/O gen_trng\[5\]\.u_trng/sub_3_1/not1/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[5\]\.u_trng/sub_3_1/not1/O gen_trng\[5\]\.u_trng/sub_3_1/not2/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[5\]\.u_trng/sub_3_1/not2/O gen_trng\[5\]\.u_trng/xor_gate2/I1 (398.0:419.0:419.0) (398.0:419.0:419.0))
+      (INTERCONNECT gen_trng\[5\]\.u_trng/sub_3_1/not2/O gen_trng\[5\]\.u_trng/sub_3_1/nand_gate/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[5\]\.u_trng/sub_3_2/nand_gate/O gen_trng\[5\]\.u_trng/sub_3_2/not1/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[5\]\.u_trng/sub_3_2/not1/O gen_trng\[5\]\.u_trng/sub_3_2/not2/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[5\]\.u_trng/sub_3_2/not2/O gen_trng\[5\]\.u_trng/xor_gate4/I1 (398.0:419.0:419.0) (398.0:419.0:419.0))
+      (INTERCONNECT gen_trng\[5\]\.u_trng/sub_3_2/not2/O gen_trng\[5\]\.u_trng/sub_3_2/nand_gate/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[5\]\.u_trng/xor1_tmp_reg/Q gen_trng\[5\]\.u_trng/ran_INST_0/I2 (584.5:641.0:641.0) (584.5:641.0:641.0))
+      (INTERCONNECT gen_trng\[5\]\.u_trng/xor2_tmp_reg/Q gen_trng\[5\]\.u_trng/ran_INST_0/I1 (842.0:912.0:912.0) (842.0:912.0:912.0))
+      (INTERCONNECT gen_trng\[5\]\.u_trng/xor3_tmp_reg/Q gen_trng\[5\]\.u_trng/ran_INST_0/I0 (770.7:837.0:837.0) (770.7:837.0:837.0))
+      (INTERCONNECT gen_trng\[5\]\.u_trng/xor4_tmp_reg/Q gen_trng\[5\]\.u_trng/ran_INST_0/I3 (433.5:482.0:482.0) (433.5:482.0:482.0))
+      (INTERCONNECT gen_trng\[5\]\.u_trng/xor_gate1/O gen_trng\[5\]\.u_trng/xor1_tmp_reg/D (88.0:109.0:109.0) (88.0:109.0:109.0))
+      (INTERCONNECT gen_trng\[5\]\.u_trng/xor_gate1/O gen_trng\[5\]\.u_trng/xor_gate2/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[5\]\.u_trng/xor_gate2/O gen_trng\[5\]\.u_trng/xor2_tmp_reg/D (88.0:109.0:109.0) (88.0:109.0:109.0))
+      (INTERCONNECT gen_trng\[5\]\.u_trng/xor_gate2/O gen_trng\[5\]\.u_trng/xor_gate1/I1 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[5\]\.u_trng/xor_gate3/O gen_trng\[5\]\.u_trng/xor3_tmp_reg/D (88.0:109.0:109.0) (88.0:109.0:109.0))
+      (INTERCONNECT gen_trng\[5\]\.u_trng/xor_gate3/O gen_trng\[5\]\.u_trng/xor_gate4/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[5\]\.u_trng/xor_gate4/O gen_trng\[5\]\.u_trng/xor4_tmp_reg/D (88.0:109.0:109.0) (88.0:109.0:109.0))
+      (INTERCONNECT gen_trng\[5\]\.u_trng/xor_gate4/O gen_trng\[5\]\.u_trng/xor_gate3/I1 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[6\]\.u_trng/ran_INST_0/O ran_OBUF\[6\]_inst/I (760.7:800.7:800.7) (760.7:800.7:800.7))
+      (INTERCONNECT gen_trng\[6\]\.u_trng/sub_1_1/nand_gate/O gen_trng\[6\]\.u_trng/xor_gate1/I0 (398.0:419.0:419.0) (398.0:419.0:419.0))
+      (INTERCONNECT gen_trng\[6\]\.u_trng/sub_1_1/nand_gate/O gen_trng\[6\]\.u_trng/sub_1_1/nand_gate/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[6\]\.u_trng/sub_1_2/nand_gate/O gen_trng\[6\]\.u_trng/xor_gate3/I0 (398.0:419.0:419.0) (398.0:419.0:419.0))
+      (INTERCONNECT gen_trng\[6\]\.u_trng/sub_1_2/nand_gate/O gen_trng\[6\]\.u_trng/sub_1_2/nand_gate/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[6\]\.u_trng/sub_3_1/nand_gate/O gen_trng\[6\]\.u_trng/sub_3_1/not1/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[6\]\.u_trng/sub_3_1/not1/O gen_trng\[6\]\.u_trng/sub_3_1/not2/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[6\]\.u_trng/sub_3_1/not2/O gen_trng\[6\]\.u_trng/xor_gate2/I1 (398.0:419.0:419.0) (398.0:419.0:419.0))
+      (INTERCONNECT gen_trng\[6\]\.u_trng/sub_3_1/not2/O gen_trng\[6\]\.u_trng/sub_3_1/nand_gate/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[6\]\.u_trng/sub_3_2/nand_gate/O gen_trng\[6\]\.u_trng/sub_3_2/not1/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[6\]\.u_trng/sub_3_2/not1/O gen_trng\[6\]\.u_trng/sub_3_2/not2/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[6\]\.u_trng/sub_3_2/not2/O gen_trng\[6\]\.u_trng/xor_gate4/I1 (398.0:419.0:419.0) (398.0:419.0:419.0))
+      (INTERCONNECT gen_trng\[6\]\.u_trng/sub_3_2/not2/O gen_trng\[6\]\.u_trng/sub_3_2/nand_gate/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[6\]\.u_trng/xor1_tmp_reg/Q gen_trng\[6\]\.u_trng/ran_INST_0/I2 (584.5:641.0:641.0) (584.5:641.0:641.0))
+      (INTERCONNECT gen_trng\[6\]\.u_trng/xor2_tmp_reg/Q gen_trng\[6\]\.u_trng/ran_INST_0/I1 (842.0:912.0:912.0) (842.0:912.0:912.0))
+      (INTERCONNECT gen_trng\[6\]\.u_trng/xor3_tmp_reg/Q gen_trng\[6\]\.u_trng/ran_INST_0/I0 (770.7:837.0:837.0) (770.7:837.0:837.0))
+      (INTERCONNECT gen_trng\[6\]\.u_trng/xor4_tmp_reg/Q gen_trng\[6\]\.u_trng/ran_INST_0/I3 (433.5:482.0:482.0) (433.5:482.0:482.0))
+      (INTERCONNECT gen_trng\[6\]\.u_trng/xor_gate1/O gen_trng\[6\]\.u_trng/xor1_tmp_reg/D (88.0:109.0:109.0) (88.0:109.0:109.0))
+      (INTERCONNECT gen_trng\[6\]\.u_trng/xor_gate1/O gen_trng\[6\]\.u_trng/xor_gate2/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[6\]\.u_trng/xor_gate2/O gen_trng\[6\]\.u_trng/xor2_tmp_reg/D (88.0:109.0:109.0) (88.0:109.0:109.0))
+      (INTERCONNECT gen_trng\[6\]\.u_trng/xor_gate2/O gen_trng\[6\]\.u_trng/xor_gate1/I1 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[6\]\.u_trng/xor_gate3/O gen_trng\[6\]\.u_trng/xor3_tmp_reg/D (88.0:109.0:109.0) (88.0:109.0:109.0))
+      (INTERCONNECT gen_trng\[6\]\.u_trng/xor_gate3/O gen_trng\[6\]\.u_trng/xor_gate4/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[6\]\.u_trng/xor_gate4/O gen_trng\[6\]\.u_trng/xor4_tmp_reg/D (88.0:109.0:109.0) (88.0:109.0:109.0))
+      (INTERCONNECT gen_trng\[6\]\.u_trng/xor_gate4/O gen_trng\[6\]\.u_trng/xor_gate3/I1 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[7\]\.u_trng/ran_INST_0/O ran_OBUF\[7\]_inst/I (760.7:800.7:800.7) (760.7:800.7:800.7))
+      (INTERCONNECT gen_trng\[7\]\.u_trng/sub_1_1/nand_gate/O gen_trng\[7\]\.u_trng/xor_gate1/I0 (398.0:419.0:419.0) (398.0:419.0:419.0))
+      (INTERCONNECT gen_trng\[7\]\.u_trng/sub_1_1/nand_gate/O gen_trng\[7\]\.u_trng/sub_1_1/nand_gate/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[7\]\.u_trng/sub_1_2/nand_gate/O gen_trng\[7\]\.u_trng/xor_gate3/I0 (398.0:419.0:419.0) (398.0:419.0:419.0))
+      (INTERCONNECT gen_trng\[7\]\.u_trng/sub_1_2/nand_gate/O gen_trng\[7\]\.u_trng/sub_1_2/nand_gate/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[7\]\.u_trng/sub_3_1/nand_gate/O gen_trng\[7\]\.u_trng/sub_3_1/not1/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[7\]\.u_trng/sub_3_1/not1/O gen_trng\[7\]\.u_trng/sub_3_1/not2/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[7\]\.u_trng/sub_3_1/not2/O gen_trng\[7\]\.u_trng/xor_gate2/I1 (398.0:419.0:419.0) (398.0:419.0:419.0))
+      (INTERCONNECT gen_trng\[7\]\.u_trng/sub_3_1/not2/O gen_trng\[7\]\.u_trng/sub_3_1/nand_gate/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[7\]\.u_trng/sub_3_2/nand_gate/O gen_trng\[7\]\.u_trng/sub_3_2/not1/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[7\]\.u_trng/sub_3_2/not1/O gen_trng\[7\]\.u_trng/sub_3_2/not2/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[7\]\.u_trng/sub_3_2/not2/O gen_trng\[7\]\.u_trng/xor_gate4/I1 (398.0:419.0:419.0) (398.0:419.0:419.0))
+      (INTERCONNECT gen_trng\[7\]\.u_trng/sub_3_2/not2/O gen_trng\[7\]\.u_trng/sub_3_2/nand_gate/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[7\]\.u_trng/xor1_tmp_reg/Q gen_trng\[7\]\.u_trng/ran_INST_0/I2 (584.5:641.0:641.0) (584.5:641.0:641.0))
+      (INTERCONNECT gen_trng\[7\]\.u_trng/xor2_tmp_reg/Q gen_trng\[7\]\.u_trng/ran_INST_0/I1 (842.0:912.0:912.0) (842.0:912.0:912.0))
+      (INTERCONNECT gen_trng\[7\]\.u_trng/xor3_tmp_reg/Q gen_trng\[7\]\.u_trng/ran_INST_0/I0 (770.7:837.0:837.0) (770.7:837.0:837.0))
+      (INTERCONNECT gen_trng\[7\]\.u_trng/xor4_tmp_reg/Q gen_trng\[7\]\.u_trng/ran_INST_0/I3 (433.5:482.0:482.0) (433.5:482.0:482.0))
+      (INTERCONNECT gen_trng\[7\]\.u_trng/xor_gate1/O gen_trng\[7\]\.u_trng/xor1_tmp_reg/D (88.0:109.0:109.0) (88.0:109.0:109.0))
+      (INTERCONNECT gen_trng\[7\]\.u_trng/xor_gate1/O gen_trng\[7\]\.u_trng/xor_gate2/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[7\]\.u_trng/xor_gate2/O gen_trng\[7\]\.u_trng/xor2_tmp_reg/D (88.0:109.0:109.0) (88.0:109.0:109.0))
+      (INTERCONNECT gen_trng\[7\]\.u_trng/xor_gate2/O gen_trng\[7\]\.u_trng/xor_gate1/I1 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[7\]\.u_trng/xor_gate3/O gen_trng\[7\]\.u_trng/xor3_tmp_reg/D (88.0:109.0:109.0) (88.0:109.0:109.0))
+      (INTERCONNECT gen_trng\[7\]\.u_trng/xor_gate3/O gen_trng\[7\]\.u_trng/xor_gate4/I0 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      (INTERCONNECT gen_trng\[7\]\.u_trng/xor_gate4/O gen_trng\[7\]\.u_trng/xor4_tmp_reg/D (88.0:109.0:109.0) (88.0:109.0:109.0))
+      (INTERCONNECT gen_trng\[7\]\.u_trng/xor_gate4/O gen_trng\[7\]\.u_trng/xor_gate3/I1 (426.5:449.0:449.0) (426.5:449.0:449.0))
+      )
+    )
+)
+)

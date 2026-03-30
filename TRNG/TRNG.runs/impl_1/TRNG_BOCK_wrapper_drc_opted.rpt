@@ -1,0 +1,66 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Sun Mar 29 16:12:17 2026
+| Host         : Admin-PC running 64-bit major release  (build 9200)
+| Command      : report_drc -file TRNG_BOCK_wrapper_drc_opted.rpt -pb TRNG_BOCK_wrapper_drc_opted.pb -rpx TRNG_BOCK_wrapper_drc_opted.rpx
+| Design       : TRNG_BOCK_wrapper
+| Device       : xc7z020clg400-1
+| Speed File   : -1
+| Design State : Synthesized
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 6
++---------+----------+----------------------------+------------+
+| Rule    | Severity | Description                | Violations |
++---------+----------+----------------------------+------------+
+| LUTLP-2 | Warning  | Combinatorial Loop Allowed | 6          |
++---------+----------+----------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+LUTLP-2#1 Warning
+Combinatorial Loop Allowed  
+1 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: TRNG_BOCK_i/S_TRNG_0/inst/sub_1_1/nand_gate.
+Related violations: <none>
+
+LUTLP-2#2 Warning
+Combinatorial Loop Allowed  
+1 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: TRNG_BOCK_i/S_TRNG_0/inst/sub_1_2/nand_gate.
+Related violations: <none>
+
+LUTLP-2#3 Warning
+Combinatorial Loop Allowed  
+2 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: TRNG_BOCK_i/S_TRNG_0/inst/xor_gate1, TRNG_BOCK_i/S_TRNG_0/inst/xor_gate2.
+Related violations: <none>
+
+LUTLP-2#4 Warning
+Combinatorial Loop Allowed  
+2 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: TRNG_BOCK_i/S_TRNG_0/inst/xor_gate3, TRNG_BOCK_i/S_TRNG_0/inst/xor_gate4.
+Related violations: <none>
+
+LUTLP-2#5 Warning
+Combinatorial Loop Allowed  
+3 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: TRNG_BOCK_i/S_TRNG_0/inst/sub_3_1/nand_gate, TRNG_BOCK_i/S_TRNG_0/inst/sub_3_1/not1, TRNG_BOCK_i/S_TRNG_0/inst/sub_3_1/not2.
+Related violations: <none>
+
+LUTLP-2#6 Warning
+Combinatorial Loop Allowed  
+3 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: TRNG_BOCK_i/S_TRNG_0/inst/sub_3_2/nand_gate, TRNG_BOCK_i/S_TRNG_0/inst/sub_3_2/not1, TRNG_BOCK_i/S_TRNG_0/inst/sub_3_2/not2.
+Related violations: <none>
+
+

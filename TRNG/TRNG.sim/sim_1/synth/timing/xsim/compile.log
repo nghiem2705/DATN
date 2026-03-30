@@ -1,0 +1,51 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sim/sim_1/synth/timing/xsim/S_TRNG_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module M_TRNG
+INFO: [VRFC 10-311] analyzing module S_TRNG
+INFO: [VRFC 10-311] analyzing module S_TRNG__10
+INFO: [VRFC 10-311] analyzing module S_TRNG__11
+INFO: [VRFC 10-311] analyzing module S_TRNG__12
+INFO: [VRFC 10-311] analyzing module S_TRNG__13
+INFO: [VRFC 10-311] analyzing module S_TRNG__14
+INFO: [VRFC 10-311] analyzing module S_TRNG__8
+INFO: [VRFC 10-311] analyzing module S_TRNG__9
+INFO: [VRFC 10-311] analyzing module sub_ring_1
+INFO: [VRFC 10-311] analyzing module sub_ring_1__16
+INFO: [VRFC 10-311] analyzing module sub_ring_1__17
+INFO: [VRFC 10-311] analyzing module sub_ring_1__18
+INFO: [VRFC 10-311] analyzing module sub_ring_1__19
+INFO: [VRFC 10-311] analyzing module sub_ring_1__20
+INFO: [VRFC 10-311] analyzing module sub_ring_1__21
+INFO: [VRFC 10-311] analyzing module sub_ring_1__22
+INFO: [VRFC 10-311] analyzing module sub_ring_1__23
+INFO: [VRFC 10-311] analyzing module sub_ring_1__24
+INFO: [VRFC 10-311] analyzing module sub_ring_1__25
+INFO: [VRFC 10-311] analyzing module sub_ring_1__26
+INFO: [VRFC 10-311] analyzing module sub_ring_1__27
+INFO: [VRFC 10-311] analyzing module sub_ring_1__28
+INFO: [VRFC 10-311] analyzing module sub_ring_1__29
+INFO: [VRFC 10-311] analyzing module sub_ring_1__30
+INFO: [VRFC 10-311] analyzing module sub_ring_3
+INFO: [VRFC 10-311] analyzing module sub_ring_3__16
+INFO: [VRFC 10-311] analyzing module sub_ring_3__17
+INFO: [VRFC 10-311] analyzing module sub_ring_3__18
+INFO: [VRFC 10-311] analyzing module sub_ring_3__19
+INFO: [VRFC 10-311] analyzing module sub_ring_3__20
+INFO: [VRFC 10-311] analyzing module sub_ring_3__21
+INFO: [VRFC 10-311] analyzing module sub_ring_3__22
+INFO: [VRFC 10-311] analyzing module sub_ring_3__23
+INFO: [VRFC 10-311] analyzing module sub_ring_3__24
+INFO: [VRFC 10-311] analyzing module sub_ring_3__25
+INFO: [VRFC 10-311] analyzing module sub_ring_3__26
+INFO: [VRFC 10-311] analyzing module sub_ring_3__27
+INFO: [VRFC 10-311] analyzing module sub_ring_3__28
+INFO: [VRFC 10-311] analyzing module sub_ring_3__29
+INFO: [VRFC 10-311] analyzing module sub_ring_3__30
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/Documents/Chaos_Based_Symmetric_Image_Encryption/TRNG/SUB_RING.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sub_ring_1
+WARNING: [VRFC 10-2845] overwriting previous definition of module sub_ring_1 [C:/Users/Admin/Documents/Chaos_Based_Symmetric_Image_Encryption/TRNG/SUB_RING.v:2]
+INFO: [VRFC 10-311] analyzing module sub_ring_3
+WARNING: [VRFC 10-2845] overwriting previous definition of module sub_ring_3 [C:/Users/Admin/Documents/Chaos_Based_Symmetric_Image_Encryption/TRNG/SUB_RING.v:14]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Admin/Documents/Chaos_Based_Symmetric_Image_Encryption/TRNG/S_TRNG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module S_TRNG
+WARNING: [VRFC 10-2845] overwriting previous definition of module S_TRNG [C:/Users/Admin/Documents/Chaos_Based_Symmetric_Image_Encryption/TRNG/S_TRNG.v:3]

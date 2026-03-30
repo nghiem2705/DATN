@@ -1,0 +1,68 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Mar 30 12:03:04 2026
+# Process ID: 9984
+# Current directory: C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.runs/impl_1
+# Command line: vivado.exe -log TRNG_BOCK_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source TRNG_BOCK_wrapper.tcl -notrace
+# Log file: C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.runs/impl_1/TRNG_BOCK_wrapper.vdi
+# Journal file: C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source TRNG_BOCK_wrapper.tcl -notrace
+Command: open_checkpoint TRNG_BOCK_wrapper_routed.dcp
+
+Starting open_checkpoint Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.048 . Memory (MB): peak = 223.094 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 6 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.487 . Memory (MB): peak = 1093.586 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.488 . Memory (MB): peak = 1093.586 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2018.2 (64-bit) build 2258646
+open_checkpoint: Time (s): cpu = 00:00:16 ; elapsed = 00:00:30 . Memory (MB): peak = 1093.586 ; gain = 878.555
+Command: write_bitstream -force TRNG_BOCK_wrapper.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command write_bitstream
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/Admin/Documents/vivado/Vivado/2018.2/data/ip'.
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC LUTLP-2] Combinatorial Loop Allowed: 1 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: TRNG_BOCK_i/S_TRNG_0/inst/sub_1_1/nand_gate.
+WARNING: [DRC LUTLP-2] Combinatorial Loop Allowed: 1 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: TRNG_BOCK_i/S_TRNG_0/inst/sub_1_2/nand_gate.
+WARNING: [DRC LUTLP-2] Combinatorial Loop Allowed: 2 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: TRNG_BOCK_i/S_TRNG_0/inst/xor_gate1, and TRNG_BOCK_i/S_TRNG_0/inst/xor_gate2.
+WARNING: [DRC LUTLP-2] Combinatorial Loop Allowed: 2 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: TRNG_BOCK_i/S_TRNG_0/inst/xor_gate3, and TRNG_BOCK_i/S_TRNG_0/inst/xor_gate4.
+WARNING: [DRC LUTLP-2] Combinatorial Loop Allowed: 3 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: TRNG_BOCK_i/S_TRNG_0/inst/sub_3_1/nand_gate, TRNG_BOCK_i/S_TRNG_0/inst/sub_3_1/not1, and TRNG_BOCK_i/S_TRNG_0/inst/sub_3_1/not2.
+WARNING: [DRC LUTLP-2] Combinatorial Loop Allowed: 3 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: TRNG_BOCK_i/S_TRNG_0/inst/sub_3_2/nand_gate, TRNG_BOCK_i/S_TRNG_0/inst/sub_3_2/not1, and TRNG_BOCK_i/S_TRNG_0/inst/sub_3_2/not2.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 6 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Designutils 20-2272] Running write_bitstream with 2 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./TRNG_BOCK_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK part without a full Vivado license. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-83] Releasing license: Implementation
+22 Infos, 6 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:15 ; elapsed = 00:00:21 . Memory (MB): peak = 1587.289 ; gain = 493.703
+INFO: [Common 17-206] Exiting Vivado at Mon Mar 30 12:03:59 2026...

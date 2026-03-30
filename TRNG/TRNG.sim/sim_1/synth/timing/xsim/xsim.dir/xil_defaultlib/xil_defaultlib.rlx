@@ -1,0 +1,7 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+C:/Users/Admin/Documents/Chaos_Based_Symmetric_Image_Encryption/TRNG/SUB_RING.v,1770739492,verilog,,C:/Users/Admin/Documents/Chaos_Based_Symmetric_Image_Encryption/TRNG/S_TRNG.v,,sub_ring_1;sub_ring_3,,,,,,,,
+C:/Users/Admin/Documents/Chaos_Based_Symmetric_Image_Encryption/TRNG/S_TRNG.v,1770779000,verilog,,,,S_TRNG,,,,,,,,
+C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sim/sim_1/synth/timing/xsim/S_TRNG_time_synth.v,1771847371,verilog,,C:/Users/Admin/Documents/Chaos_Based_Symmetric_Image_Encryption/TRNG/SUB_RING.v,,M_TRNG;S_TRNG__10;S_TRNG__11;S_TRNG__12;S_TRNG__13;S_TRNG__14;S_TRNG__8;S_TRNG__9;glbl;sub_ring_1__16;sub_ring_1__17;sub_ring_1__18;sub_ring_1__19;sub_ring_1__20;sub_ring_1__21;sub_ring_1__22;sub_ring_1__23;sub_ring_1__24;sub_ring_1__25;sub_ring_1__26;sub_ring_1__27;sub_ring_1__28;sub_ring_1__29;sub_ring_1__30;sub_ring_3__16;sub_ring_3__17;sub_ring_3__18;sub_ring_3__19;sub_ring_3__20;sub_ring_3__21;sub_ring_3__22;sub_ring_3__23;sub_ring_3__24;sub_ring_3__25;sub_ring_3__26;sub_ring_3__27;sub_ring_3__28;sub_ring_3__29;sub_ring_3__30,,,,,,,,

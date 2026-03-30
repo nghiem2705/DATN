@@ -1,0 +1,8 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"S_TRNG_time_synth.v" \
+"../../../../../../../../Chaos_Based_Symmetric_Image_Encryption/TRNG/SUB_RING.v" \
+"../../../../../../../../Chaos_Based_Symmetric_Image_Encryption/TRNG/S_TRNG.v" \
+
+# Do not sort compile order
+nosort

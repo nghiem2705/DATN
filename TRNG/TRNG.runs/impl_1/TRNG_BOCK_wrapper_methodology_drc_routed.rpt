@@ -1,0 +1,65 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Sun Mar 29 16:13:05 2026
+| Host         : Admin-PC running 64-bit major release  (build 9200)
+| Command      : report_methodology -file TRNG_BOCK_wrapper_methodology_drc_routed.rpt -pb TRNG_BOCK_wrapper_methodology_drc_routed.pb -rpx TRNG_BOCK_wrapper_methodology_drc_routed.rpx
+| Design       : TRNG_BOCK_wrapper
+| Device       : xc7z020clg400-1
+| Speed File   : -1
+| Design State : Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 6
++-----------+----------+--------------------------+------------+
+| Rule      | Severity | Description              | Violations |
++-----------+----------+--------------------------+------------+
+| TIMING-23 | Warning  | Combinational loop found | 6          |
++-----------+----------+--------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-23#1 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between TRNG_BOCK_i/S_TRNG_0/inst/sub_1_1/nand_gate/I0 and TRNG_BOCK_i/S_TRNG_0/inst/sub_1_1/nand_gate/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#2 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between TRNG_BOCK_i/S_TRNG_0/inst/sub_1_2/nand_gate/I0 and TRNG_BOCK_i/S_TRNG_0/inst/sub_1_2/nand_gate/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#3 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between TRNG_BOCK_i/S_TRNG_0/inst/sub_3_1/nand_gate/I0 and TRNG_BOCK_i/S_TRNG_0/inst/sub_3_1/nand_gate/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#4 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between TRNG_BOCK_i/S_TRNG_0/inst/sub_3_2/nand_gate/I0 and TRNG_BOCK_i/S_TRNG_0/inst/sub_3_2/nand_gate/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#5 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between TRNG_BOCK_i/S_TRNG_0/inst/xor_gate2/I0 and TRNG_BOCK_i/S_TRNG_0/inst/xor_gate2/O to disable the timing loop
+Related violations: <none>
+
+TIMING-23#6 Warning
+Combinational loop found  
+A timing loop has been detected on a combinational path. A timing arc has been disabled between TRNG_BOCK_i/S_TRNG_0/inst/xor_gate4/I0 and TRNG_BOCK_i/S_TRNG_0/inst/xor_gate4/O to disable the timing loop
+Related violations: <none>
+
+

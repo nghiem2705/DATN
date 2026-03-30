@@ -1,0 +1,164 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Sun Mar 29 15:58:20 2026
+| Host         : Admin-PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'TRNG_BOCK_TRNG_IP_0_1'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of TRNG_BOCK_TRNG_IP_0_1 (xilinx.com:user:TRNG_IP:1.0) from (Rev. 10) to (Rev. 11)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'TRNG_BOCK_TRNG_IP_0_1'. These changes may impact your design.
+
+
+-Upgraded port 'trng_bit_out' out differs from original direction in
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Sun Mar 29 15:54:01 2026
+| Host         : Admin-PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'TRNG_BOCK_TRNG_IP_0_1'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of TRNG_BOCK_TRNG_IP_0_1 (xilinx.com:user:TRNG_IP:1.0) from (Rev. 8) to (Rev. 10)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'TRNG_BOCK_TRNG_IP_0_1'. These changes may impact your design.
+
+
+-Upgrade has added port 'trng_bit_out'
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Sun Mar 29 15:41:21 2026
+| Host         : Admin-PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'TRNG_BOCK_TRNG_IP_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of TRNG_BOCK_TRNG_IP_0_1 (xilinx.com:user:TRNG_IP:1.0) from (Rev. 7) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Sun Mar 29 15:36:31 2026
+| Host         : Admin-PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'TRNG_BOCK_TRNG_IP_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of TRNG_BOCK_TRNG_IP_0_1 (xilinx.com:user:TRNG_IP:1.0 (Rev. 7)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Sun Mar 29 15:10:49 2026
+| Host         : Admin-PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'TRNG_BOCK_TRNG_IP_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of TRNG_BOCK_TRNG_IP_0_1 (xilinx.com:user:TRNG_IP:1.0) from (Rev. 6) to (Rev. 7)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Sun Mar 29 14:57:45 2026
+| Host         : Admin-PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'TRNG_BOCK_TRNG_IP_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of TRNG_BOCK_TRNG_IP_0_1 (xilinx.com:user:TRNG_IP:1.0) from (Rev. 5) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Sun Mar 29 03:07:22 2026
+| Host         : Admin-PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'TRNG_BOCK_TRNG_IP_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of TRNG_BOCK_TRNG_IP_0_1 (xilinx.com:user:TRNG_IP:1.0) from (Rev. 4) to (Rev. 5)
+

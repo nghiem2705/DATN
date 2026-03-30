@@ -1,0 +1,16 @@
+com.xilinx.sdk.linkgen.prefs.TRNG_TEST\:.bss=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.TRNG_TEST\:.data=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.TRNG_TEST\:.data1=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.TRNG_TEST\:.fixup=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.TRNG_TEST\:.rodata=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.TRNG_TEST\:.rodata1=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.TRNG_TEST\:.sbss=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.TRNG_TEST\:.sbss2=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.TRNG_TEST\:.sdata=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.TRNG_TEST\:.sdata2=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.TRNG_TEST\:.text=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.TRNG_TEST\:heap=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.TRNG_TEST\:heap-size=1024
+com.xilinx.sdk.linkgen.prefs.TRNG_TEST\:stack=ps7_ddr_0
+com.xilinx.sdk.linkgen.prefs.TRNG_TEST\:stack-size=1024
+eclipse.preferences.version=1

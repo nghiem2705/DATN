@@ -1,0 +1,1403 @@
+23:14:50 INFO  : Registering command handlers for SDK TCF services
+23:14:53 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\Admin\Documents\vivado\exercise\TRNG\TRNG.sdk\temp_xsdb_launch_script.tcl
+23:14:59 INFO  : XSCT server has started successfully.
+23:15:06 INFO  : Successfully done setting XSCT server connection channel  
+23:15:06 INFO  : Processing command line option -hwspec C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper.hdf.
+23:15:06 INFO  : Successfully done setting SDK workspace  
+10:28:25 INFO  : Registering command handlers for SDK TCF services
+10:28:26 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\Admin\Documents\vivado\exercise\TRNG\TRNG.sdk\temp_xsdb_launch_script.tcl
+10:28:30 INFO  : XSCT server has started successfully.
+10:28:35 INFO  : Successfully done setting XSCT server connection channel  
+10:28:35 INFO  : Successfully done setting SDK workspace  
+10:28:35 INFO  : Processing command line option -hwspec C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper.hdf.
+10:28:35 INFO  : Checking for hwspec changes in the project TRNG_BOCK_wrapper_hw_platform_0.
+10:28:40 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1774728888953,  Project:1774714084602
+10:28:40 INFO  : The hardware specification for project 'TRNG_BOCK_wrapper_hw_platform_0' is different from C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper.hdf.
+10:28:40 INFO  : Copied contents of C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper.hdf into \TRNG_BOCK_wrapper_hw_platform_0\system.hdf.
+10:28:44 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+10:28:48 INFO  : 
+10:28:49 INFO  : Updating hardware inferred compiler options for Test_TRNG.
+10:28:49 INFO  : Clearing existing target manager status.
+11:05:21 INFO  : Copied contents of C:\Users\Admin\Documents\vivado\exercise\TRNG\TRNG.sdk\TRNG_BOCK_wrapper.hdf into \ZC702_hw_platform\system.hdf.
+11:05:25 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+11:05:27 INFO  : 
+11:05:28 INFO  : Updating hardware inferred compiler options for TRNG_TEST.
+11:05:28 INFO  : Clearing existing target manager status.
+11:05:28 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+11:05:31 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+12:09:15 INFO  : Registering command handlers for SDK TCF services
+12:09:16 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\Admin\Documents\vivado\exercise\TRNG\TRNG.sdk\temp_xsdb_launch_script.tcl
+12:09:20 INFO  : XSCT server has started successfully.
+12:09:24 INFO  : Successfully done setting XSCT server connection channel  
+12:09:24 INFO  : Successfully done setting SDK workspace  
+12:09:24 INFO  : Processing command line option -hwspec C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper.hdf.
+15:18:33 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1774772289859,  Project:1774756432986
+15:18:33 INFO  : Project TRNG_BOCK_wrapper_hw_platform_0's source hardware specification located at C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+15:18:33 INFO  : Copied contents of C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper.hdf into \TRNG_BOCK_wrapper_hw_platform_0\system.hdf.
+15:18:39 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+15:18:39 INFO  : Clearing existing target manager status.
+15:18:39 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+15:18:39 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+15:18:39 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1774772289859,  Project:1774756432986
+15:18:39 INFO  : Project ZC702_hw_platform's source hardware specification located at C:\Users\Admin\Documents\vivado\exercise\TRNG\TRNG.sdk\TRNG_BOCK_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+15:18:39 INFO  : Copied contents of C:\Users\Admin\Documents\vivado\exercise\TRNG\TRNG.sdk\TRNG_BOCK_wrapper.hdf into \ZC702_hw_platform\system.hdf.
+15:18:43 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+15:18:47 INFO  : 
+15:18:48 INFO  : Updating hardware inferred compiler options for TRNG_TEST.
+15:18:54 INFO  : Clearing existing target manager status.
+15:18:54 INFO  : Closing and re-opening the MSS file of ther project TRNG_TEST_bsp
+15:18:55 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+15:19:29 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+15:20:59 INFO  : The new hardware specification file contains the same information as the current specification file. No changes were done to the workspace.
+16:16:52 INFO  : Registering command handlers for SDK TCF services
+16:16:53 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\Admin\Documents\vivado\exercise\TRNG\TRNG.sdk\temp_xsdb_launch_script.tcl
+16:16:57 INFO  : XSCT server has started successfully.
+16:17:02 INFO  : Successfully done setting XSCT server connection channel  
+16:17:02 INFO  : Successfully done setting SDK workspace  
+16:17:02 INFO  : Processing command line option -hwspec C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper.hdf.
+16:17:02 INFO  : Checking for hwspec changes in the project TRNG_BOCK_wrapper_hw_platform_0.
+16:17:09 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1774775604650,  Project:1774772289859
+16:17:09 INFO  : The hardware specification for project 'TRNG_BOCK_wrapper_hw_platform_0' is different from C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper.hdf.
+16:17:09 INFO  : Copied contents of C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper.hdf into \TRNG_BOCK_wrapper_hw_platform_0\system.hdf.
+16:17:13 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+16:17:13 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1774775604650,  Project:1774772289859
+16:17:13 INFO  : Project ZC702_hw_platform's source hardware specification located at C:\Users\Admin\Documents\vivado\exercise\TRNG\TRNG.sdk\TRNG_BOCK_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+16:17:13 INFO  : Copied contents of C:\Users\Admin\Documents\vivado\exercise\TRNG\TRNG.sdk\TRNG_BOCK_wrapper.hdf into \ZC702_hw_platform\system.hdf.
+16:17:17 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+16:17:20 INFO  : 
+16:17:21 INFO  : Updating hardware inferred compiler options for TRNG_TEST.
+16:17:21 INFO  : Clearing existing target manager status.
+16:17:21 INFO  : Clearing existing target manager status.
+16:17:21 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+16:17:21 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+16:17:31 INFO  : The new hardware specification file contains the same information as the current specification file. No changes were done to the workspace.
+16:17:40 INFO  : The new hardware specification file contains the same information as the current specification file. No changes were done to the workspace.
+19:59:58 INFO  : Registering command handlers for SDK TCF services
+19:59:59 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\Admin\Documents\vivado\exercise\TRNG\TRNG.sdk\temp_xsdb_launch_script.tcl
+20:00:02 INFO  : XSCT server has started successfully.
+20:00:02 INFO  : Successfully done setting XSCT server connection channel  
+20:00:03 INFO  : Successfully done setting SDK workspace  
+20:00:03 INFO  : Processing command line option -hwspec C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper.hdf.
+20:00:03 INFO  : Checking for hwspec changes in the project TRNG_BOCK_wrapper_hw_platform_0.
+20:00:55 INFO  : Inferring section assignments and sizes from elf file: C:\Users\Admin\Documents\vivado\exercise\TRNG\TRNG.sdk\TRNG_TEST\Debug\TRNG_TEST.elf
+20:01:05 INFO  : Successfully generated C:\Users\Admin\Documents\vivado\exercise\TRNG\TRNG.sdk\TRNG_TEST\src\lscript.ld.
+20:01:05 INFO  : Applying linker script to all configurations of project TRNG_TEST.
+20:01:05 INFO  : Setting rebuild state to true for all configurations of project TRNG_TEST.
+11:45:37 INFO  : Registering command handlers for SDK TCF services
+11:45:38 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\Admin\Documents\vivado\exercise\TRNG\TRNG.sdk\temp_xsdb_launch_script.tcl
+11:45:42 INFO  : XSCT server has started successfully.
+11:45:42 INFO  : Successfully done setting XSCT server connection channel  
+11:45:46 INFO  : Successfully done setting SDK workspace  
+11:45:46 INFO  : Processing command line option -hwspec C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper.hdf.
+11:45:47 INFO  : Checking for hwspec changes in the project TRNG_BOCK_wrapper_hw_platform_0.
+11:48:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:48:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA" && level==0} -index 1' command is executed.
+11:48:03 INFO  : FPGA configured successfully with bitstream "C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/TRNG_BOCK_wrapper.bit"
+11:52:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA" && level==0} -index 1' command is executed.
+11:52:00 INFO  : 'fpga -state' command is executed.
+11:52:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:52:00 INFO  : Jtag cable 'Digilent Arty Z7 003017B3FA2FA' is selected.
+11:52:00 INFO  : 'jtag frequency' command is executed.
+11:52:00 INFO  : Sourcing of 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/ZC702_hw_platform/ps7_init.tcl' is done.
+11:52:00 INFO  : Context for 'APU' is selected.
+11:52:00 INFO  : Hardware design information is loaded from 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/ZC702_hw_platform/system.hdf'.
+11:52:00 INFO  : 'configparams force-mem-access 1' command is executed.
+11:52:00 INFO  : Context for 'APU' is selected.
+11:52:00 INFO  : 'stop' command is executed.
+11:52:00 INFO  : 'ps7_init' command is executed.
+11:52:00 INFO  : 'ps7_post_config' command is executed.
+11:52:00 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:52:01 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+11:52:01 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:52:01 INFO  : The application 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_TEST/Debug/TRNG_TEST.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:52:01 INFO  : 'configparams force-mem-access 0' command is executed.
+11:52:01 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/ZC702_hw_platform/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+loadhw -hw C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/ZC702_hw_platform/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+dow C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_TEST/Debug/TRNG_TEST.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:52:01 INFO  : Memory regions updated for context APU
+11:52:01 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:52:01 INFO  : 'con' command is executed.
+11:52:01 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+con
+----------------End of Script----------------
+
+11:52:01 INFO  : Launch script is exported to file 'C:\Users\Admin\Documents\vivado\exercise\TRNG\TRNG.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_trng_test.elf_on_local.tcl'
+11:54:06 INFO  : Disconnected from the channel tcfchan#1.
+11:54:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA" && level==0} -index 1' command is executed.
+11:54:07 INFO  : 'fpga -state' command is executed.
+11:54:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:54:07 INFO  : Jtag cable 'Digilent Arty Z7 003017B3FA2FA' is selected.
+11:54:07 INFO  : 'jtag frequency' command is executed.
+11:54:07 INFO  : Sourcing of 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/ZC702_hw_platform/ps7_init.tcl' is done.
+11:54:07 INFO  : Context for 'APU' is selected.
+11:54:09 INFO  : Hardware design information is loaded from 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/ZC702_hw_platform/system.hdf'.
+11:54:09 INFO  : 'configparams force-mem-access 1' command is executed.
+11:54:09 INFO  : Context for 'APU' is selected.
+11:54:09 INFO  : 'stop' command is executed.
+11:54:10 INFO  : 'ps7_init' command is executed.
+11:54:10 INFO  : 'ps7_post_config' command is executed.
+11:54:10 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:54:10 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+11:54:10 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:54:10 INFO  : The application 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_TEST/Debug/TRNG_TEST.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:54:10 INFO  : 'configparams force-mem-access 0' command is executed.
+11:54:10 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/ZC702_hw_platform/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+loadhw -hw C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/ZC702_hw_platform/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+dow C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_TEST/Debug/TRNG_TEST.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:54:10 INFO  : Memory regions updated for context APU
+11:54:10 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:54:10 INFO  : 'con' command is executed.
+11:54:10 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+con
+----------------End of Script----------------
+
+11:54:10 INFO  : Launch script is exported to file 'C:\Users\Admin\Documents\vivado\exercise\TRNG\TRNG.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_trng_test.elf_on_local.tcl'
+11:55:28 INFO  : Disconnected from the channel tcfchan#2.
+11:55:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA" && level==0} -index 1' command is executed.
+11:55:30 INFO  : 'fpga -state' command is executed.
+11:55:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:55:30 INFO  : Jtag cable 'Digilent Arty Z7 003017B3FA2FA' is selected.
+11:55:30 INFO  : 'jtag frequency' command is executed.
+11:55:30 INFO  : Sourcing of 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/ZC702_hw_platform/ps7_init.tcl' is done.
+11:55:30 INFO  : Context for 'APU' is selected.
+11:55:30 INFO  : Hardware design information is loaded from 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/ZC702_hw_platform/system.hdf'.
+11:55:30 INFO  : 'configparams force-mem-access 1' command is executed.
+11:55:30 INFO  : Context for 'APU' is selected.
+11:55:30 INFO  : 'stop' command is executed.
+11:55:30 INFO  : 'ps7_init' command is executed.
+11:55:30 INFO  : 'ps7_post_config' command is executed.
+11:55:30 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:55:30 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+11:55:30 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:55:31 INFO  : The application 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_TEST/Debug/TRNG_TEST.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:55:31 INFO  : 'configparams force-mem-access 0' command is executed.
+11:55:31 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/ZC702_hw_platform/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+loadhw -hw C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/ZC702_hw_platform/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+dow C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_TEST/Debug/TRNG_TEST.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:55:31 INFO  : Memory regions updated for context APU
+11:55:31 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:55:31 INFO  : 'con' command is executed.
+11:55:31 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+con
+----------------End of Script----------------
+
+11:55:31 INFO  : Launch script is exported to file 'C:\Users\Admin\Documents\vivado\exercise\TRNG\TRNG.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_trng_test.elf_on_local.tcl'
+11:56:03 INFO  : Disconnected from the channel tcfchan#3.
+11:56:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA" && level==0} -index 1' command is executed.
+11:56:04 INFO  : 'fpga -state' command is executed.
+11:56:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:56:04 INFO  : Jtag cable 'Digilent Arty Z7 003017B3FA2FA' is selected.
+11:56:04 INFO  : 'jtag frequency' command is executed.
+11:56:04 INFO  : Sourcing of 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/ZC702_hw_platform/ps7_init.tcl' is done.
+11:56:04 INFO  : Context for 'APU' is selected.
+11:56:04 INFO  : Hardware design information is loaded from 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/ZC702_hw_platform/system.hdf'.
+11:56:04 INFO  : 'configparams force-mem-access 1' command is executed.
+11:56:04 INFO  : Context for 'APU' is selected.
+11:56:04 INFO  : 'stop' command is executed.
+11:56:05 INFO  : 'ps7_init' command is executed.
+11:56:05 INFO  : 'ps7_post_config' command is executed.
+11:56:05 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:56:05 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+11:56:05 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:56:05 INFO  : The application 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_TEST/Debug/TRNG_TEST.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:56:05 INFO  : 'configparams force-mem-access 0' command is executed.
+11:56:05 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/ZC702_hw_platform/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+loadhw -hw C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/ZC702_hw_platform/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+dow C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_TEST/Debug/TRNG_TEST.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:56:05 INFO  : Memory regions updated for context APU
+11:56:05 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:56:05 INFO  : 'con' command is executed.
+11:56:05 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+con
+----------------End of Script----------------
+
+11:56:05 INFO  : Launch script is exported to file 'C:\Users\Admin\Documents\vivado\exercise\TRNG\TRNG.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_trng_test.elf_on_local.tcl'
+11:58:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:58:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA" && level==0} -index 1' command is executed.
+11:58:08 INFO  : FPGA configured successfully with bitstream "C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/TRNG_BOCK_wrapper.bit"
+11:58:24 INFO  : Disconnected from the channel tcfchan#4.
+11:58:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA" && level==0} -index 1' command is executed.
+11:58:25 INFO  : 'fpga -state' command is executed.
+11:58:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:58:25 INFO  : Jtag cable 'Digilent Arty Z7 003017B3FA2FA' is selected.
+11:58:25 INFO  : 'jtag frequency' command is executed.
+11:58:25 INFO  : Sourcing of 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/ZC702_hw_platform/ps7_init.tcl' is done.
+11:58:25 INFO  : Context for 'APU' is selected.
+11:58:25 INFO  : Hardware design information is loaded from 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/ZC702_hw_platform/system.hdf'.
+11:58:25 INFO  : 'configparams force-mem-access 1' command is executed.
+11:58:25 INFO  : Context for 'APU' is selected.
+11:58:25 INFO  : 'stop' command is executed.
+11:58:27 INFO  : 'ps7_init' command is executed.
+11:58:27 INFO  : 'ps7_post_config' command is executed.
+11:58:27 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:58:27 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+11:58:27 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:58:30 ERROR : Memory write error at 0x100000. AP transaction timeout
+11:58:30 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/ZC702_hw_platform/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+loadhw -hw C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/ZC702_hw_platform/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+dow C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_TEST/Debug/TRNG_TEST.elf
+----------------End of Script----------------
+
+12:01:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA" && level==0} -index 1' command is executed.
+12:01:25 INFO  : 'fpga -state' command is executed.
+12:01:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:01:26 INFO  : Jtag cable 'Digilent Arty Z7 003017B3FA2FA' is selected.
+12:01:26 INFO  : 'jtag frequency' command is executed.
+12:01:26 INFO  : Sourcing of 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/ZC702_hw_platform/ps7_init.tcl' is done.
+12:01:27 INFO  : Context for 'APU' is selected.
+12:01:27 INFO  : Hardware design information is loaded from 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/ZC702_hw_platform/system.hdf'.
+12:01:27 INFO  : 'configparams force-mem-access 1' command is executed.
+12:01:27 INFO  : Context for 'APU' is selected.
+12:01:27 INFO  : 'stop' command is executed.
+12:01:27 INFO  : 'ps7_init' command is executed.
+12:01:27 INFO  : 'ps7_post_config' command is executed.
+12:01:27 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:01:27 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+12:01:27 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:01:27 INFO  : The application 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_TEST/Debug/TRNG_TEST.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:01:27 INFO  : 'configparams force-mem-access 0' command is executed.
+12:01:27 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/ZC702_hw_platform/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+loadhw -hw C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/ZC702_hw_platform/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+dow C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_TEST/Debug/TRNG_TEST.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:01:27 INFO  : Memory regions updated for context APU
+12:01:27 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:01:27 INFO  : 'con' command is executed.
+12:01:27 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+con
+----------------End of Script----------------
+
+12:01:27 INFO  : Launch script is exported to file 'C:\Users\Admin\Documents\vivado\exercise\TRNG\TRNG.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_trng_test.elf_on_local.tcl'
+12:01:41 INFO  : Disconnected from the channel tcfchan#5.
+12:01:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA" && level==0} -index 1' command is executed.
+12:01:42 INFO  : 'fpga -state' command is executed.
+12:01:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:01:44 INFO  : Jtag cable 'Digilent Arty Z7 003017B3FA2FA' is selected.
+12:01:44 INFO  : 'jtag frequency' command is executed.
+12:01:44 INFO  : Sourcing of 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/ZC702_hw_platform/ps7_init.tcl' is done.
+12:01:44 INFO  : Context for 'APU' is selected.
+12:01:44 INFO  : Hardware design information is loaded from 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/ZC702_hw_platform/system.hdf'.
+12:01:44 INFO  : 'configparams force-mem-access 1' command is executed.
+12:01:44 INFO  : Context for 'APU' is selected.
+12:01:44 INFO  : 'stop' command is executed.
+12:01:46 INFO  : 'ps7_init' command is executed.
+12:01:46 INFO  : 'ps7_post_config' command is executed.
+12:01:46 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:01:46 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+12:01:46 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:01:49 ERROR : Memory write error at 0x100000. APB AP transaction error, DAP status f0000021
+12:01:49 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/ZC702_hw_platform/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+loadhw -hw C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/ZC702_hw_platform/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+dow C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_TEST/Debug/TRNG_TEST.elf
+----------------End of Script----------------
+
+12:04:13 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1774847039108,  Project:1774775604650
+12:04:13 INFO  : Project TRNG_BOCK_wrapper_hw_platform_0's source hardware specification located at C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+12:04:13 INFO  : Copied contents of C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper.hdf into \TRNG_BOCK_wrapper_hw_platform_0\system.hdf.
+12:04:18 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+12:04:18 INFO  : Clearing existing target manager status.
+12:04:18 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+12:04:18 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+12:04:18 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1774847039108,  Project:1774775604650
+12:04:18 INFO  : Project ZC702_hw_platform's source hardware specification located at C:\Users\Admin\Documents\vivado\exercise\TRNG\TRNG.sdk\TRNG_BOCK_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+12:04:18 INFO  : Copied contents of C:\Users\Admin\Documents\vivado\exercise\TRNG\TRNG.sdk\TRNG_BOCK_wrapper.hdf into \ZC702_hw_platform\system.hdf.
+12:04:22 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+12:04:25 INFO  : 
+12:04:26 INFO  : Updating hardware inferred compiler options for TRNG_TEST.
+12:04:26 INFO  : Clearing existing target manager status.
+12:04:39 INFO  : The new hardware specification file contains the same information as the current specification file. No changes were done to the workspace.
+12:06:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA" && level==0} -index 1' command is executed.
+12:06:54 INFO  : 'fpga -state' command is executed.
+12:06:56 INFO  : Memory regions updated for context APU
+12:06:59 ERROR : Failed to start performance analysis programatically. It can be started manually from Performance Session Manager view.
+12:07:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA" && level==0} -index 1' command is executed.
+12:07:04 INFO  : 'fpga -state' command is executed.
+12:07:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:07:06 INFO  : Jtag cable 'Digilent Arty Z7 003017B3FA2FA' is selected.
+12:07:06 INFO  : 'jtag frequency' command is executed.
+12:07:06 INFO  : Sourcing of 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/ZC702_hw_platform/ps7_init.tcl' is done.
+12:07:06 INFO  : Context for 'APU' is selected.
+12:07:06 INFO  : Hardware design information is loaded from 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/ZC702_hw_platform/system.hdf'.
+12:07:06 INFO  : 'configparams force-mem-access 1' command is executed.
+12:07:06 INFO  : Context for 'APU' is selected.
+12:07:06 INFO  : 'stop' command is executed.
+12:07:06 ERROR : AP transaction error, DAP status f0000021
+12:07:06 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/ZC702_hw_platform/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+loadhw -hw C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/ZC702_hw_platform/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+stop
+ps7_init
+----------------End of Script----------------
+
+12:10:47 INFO  : Registering command handlers for SDK TCF services
+12:10:48 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\Admin\Documents\vivado\exercise\TRNG\TRNG.sdk\temp_xsdb_launch_script.tcl
+12:10:50 INFO  : XSCT server has started successfully.
+12:10:50 INFO  : Successfully done setting XSCT server connection channel  
+12:10:50 INFO  : Successfully done setting SDK workspace  
+12:10:50 INFO  : Processing command line option -hwspec C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper.hdf.
+12:11:04 INFO  : Registering command handlers for SDK TCF services
+12:11:05 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\Admin\Documents\vivado\exercise\TRNG\TRNG.sdk\temp_xsdb_launch_script.tcl
+12:11:07 INFO  : XSCT server has started successfully.
+12:11:07 INFO  : Successfully done setting XSCT server connection channel  
+12:11:08 INFO  : Successfully done setting SDK workspace  
+12:11:08 INFO  : Processing command line option -hwspec C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper.hdf.
+12:15:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:15:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA" && level==0} -index 1' command is executed.
+12:15:39 INFO  : FPGA configured successfully with bitstream "C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_1/TRNG_BOCK_wrapper.bit"
+12:19:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA" && level==0} -index 1' command is executed.
+12:19:30 INFO  : 'fpga -state' command is executed.
+12:19:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:19:30 INFO  : Jtag cable 'Digilent Arty Z7 003017B3FA2FA' is selected.
+12:19:30 INFO  : 'jtag frequency' command is executed.
+12:19:30 INFO  : Sourcing of 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/ps7_init.tcl' is done.
+12:19:30 INFO  : Context for 'APU' is selected.
+12:19:30 INFO  : Hardware design information is loaded from 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/system.hdf'.
+12:19:30 INFO  : 'configparams force-mem-access 1' command is executed.
+12:19:30 INFO  : Context for 'APU' is selected.
+12:19:30 INFO  : 'stop' command is executed.
+12:19:30 ERROR : AP transaction error, DAP status f0000021
+12:19:30 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+loadhw -hw C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+stop
+ps7_init
+----------------End of Script----------------
+
+12:19:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA" && level==0} -index 1' command is executed.
+12:19:56 INFO  : 'fpga -state' command is executed.
+12:19:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:19:56 INFO  : Jtag cable 'Digilent Arty Z7 003017B3FA2FA' is selected.
+12:19:56 INFO  : 'jtag frequency' command is executed.
+12:19:56 INFO  : Sourcing of 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/ps7_init.tcl' is done.
+12:19:56 INFO  : Context for 'APU' is selected.
+12:19:56 INFO  : Hardware design information is loaded from 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/system.hdf'.
+12:19:56 INFO  : 'configparams force-mem-access 1' command is executed.
+12:19:56 INFO  : Context for 'APU' is selected.
+12:19:56 INFO  : 'stop' command is executed.
+12:19:56 ERROR : AP transaction error, DAP status f0000021
+12:19:56 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+loadhw -hw C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+stop
+ps7_init
+----------------End of Script----------------
+
+12:21:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:21:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA" && level==0} -index 1' command is executed.
+12:21:53 INFO  : FPGA configured successfully with bitstream "C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/TRNG_BOCK_wrapper.bit"
+12:22:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA" && level==0} -index 1' command is executed.
+12:22:45 INFO  : 'fpga -state' command is executed.
+12:22:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:22:45 INFO  : Jtag cable 'Digilent Arty Z7 003017B3FA2FA' is selected.
+12:22:45 INFO  : 'jtag frequency' command is executed.
+12:22:45 INFO  : Sourcing of 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/ps7_init.tcl' is done.
+12:22:45 INFO  : Context for 'APU' is selected.
+12:22:45 INFO  : Hardware design information is loaded from 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/system.hdf'.
+12:22:45 INFO  : 'configparams force-mem-access 1' command is executed.
+12:22:45 INFO  : Context for 'APU' is selected.
+12:22:45 INFO  : 'stop' command is executed.
+12:22:45 INFO  : 'ps7_init' command is executed.
+12:22:45 INFO  : 'ps7_post_config' command is executed.
+12:22:45 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:22:45 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+12:22:46 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:22:46 INFO  : The application 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_PROGRAM/Debug/TRNG_PROGRAM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:22:46 INFO  : 'configparams force-mem-access 0' command is executed.
+12:22:46 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+loadhw -hw C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+dow C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_PROGRAM/Debug/TRNG_PROGRAM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:22:46 INFO  : Memory regions updated for context APU
+12:22:46 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:22:46 INFO  : 'con' command is executed.
+12:22:46 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+con
+----------------End of Script----------------
+
+12:22:46 INFO  : Launch script is exported to file 'C:\Users\Admin\Documents\vivado\exercise\TRNG\TRNG.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_trng_program.elf_on_local.tcl'
+12:23:14 INFO  : Disconnected from the channel tcfchan#1.
+12:23:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA" && level==0} -index 1' command is executed.
+12:23:16 INFO  : 'fpga -state' command is executed.
+12:23:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:23:16 INFO  : Jtag cable 'Digilent Arty Z7 003017B3FA2FA' is selected.
+12:23:16 INFO  : 'jtag frequency' command is executed.
+12:23:16 INFO  : Sourcing of 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/ps7_init.tcl' is done.
+12:23:16 INFO  : Context for 'APU' is selected.
+12:23:18 INFO  : Hardware design information is loaded from 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/system.hdf'.
+12:23:18 INFO  : 'configparams force-mem-access 1' command is executed.
+12:23:18 INFO  : Context for 'APU' is selected.
+12:23:18 INFO  : 'stop' command is executed.
+12:23:18 INFO  : 'ps7_init' command is executed.
+12:23:18 INFO  : 'ps7_post_config' command is executed.
+12:23:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:23:18 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+12:23:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:23:19 INFO  : The application 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_PROGRAM/Debug/TRNG_PROGRAM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:23:19 INFO  : 'configparams force-mem-access 0' command is executed.
+12:23:19 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+loadhw -hw C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+dow C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_PROGRAM/Debug/TRNG_PROGRAM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:23:19 INFO  : Memory regions updated for context APU
+12:23:19 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:23:19 INFO  : 'con' command is executed.
+12:23:19 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+con
+----------------End of Script----------------
+
+12:23:19 INFO  : Launch script is exported to file 'C:\Users\Admin\Documents\vivado\exercise\TRNG\TRNG.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_trng_program.elf_on_local.tcl'
+12:23:34 INFO  : Disconnected from the channel tcfchan#2.
+12:23:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA" && level==0} -index 1' command is executed.
+12:23:35 INFO  : 'fpga -state' command is executed.
+12:23:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:23:35 INFO  : Jtag cable 'Digilent Arty Z7 003017B3FA2FA' is selected.
+12:23:35 INFO  : 'jtag frequency' command is executed.
+12:23:35 INFO  : Sourcing of 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/ps7_init.tcl' is done.
+12:23:35 INFO  : Context for 'APU' is selected.
+12:23:35 INFO  : Hardware design information is loaded from 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/system.hdf'.
+12:23:35 INFO  : 'configparams force-mem-access 1' command is executed.
+12:23:35 INFO  : Context for 'APU' is selected.
+12:23:35 INFO  : 'stop' command is executed.
+12:23:36 INFO  : 'ps7_init' command is executed.
+12:23:36 INFO  : 'ps7_post_config' command is executed.
+12:23:36 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:23:36 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+12:23:36 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:23:36 INFO  : The application 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_PROGRAM/Debug/TRNG_PROGRAM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:23:36 INFO  : 'configparams force-mem-access 0' command is executed.
+12:23:36 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+loadhw -hw C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+dow C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_PROGRAM/Debug/TRNG_PROGRAM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:23:36 INFO  : Memory regions updated for context APU
+12:23:36 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:23:36 INFO  : 'con' command is executed.
+12:23:36 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+con
+----------------End of Script----------------
+
+12:23:36 INFO  : Launch script is exported to file 'C:\Users\Admin\Documents\vivado\exercise\TRNG\TRNG.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_trng_program.elf_on_local.tcl'
+12:23:55 INFO  : Disconnected from the channel tcfchan#3.
+12:23:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA" && level==0} -index 1' command is executed.
+12:23:56 INFO  : 'fpga -state' command is executed.
+12:23:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:23:57 INFO  : Jtag cable 'Digilent Arty Z7 003017B3FA2FA' is selected.
+12:23:57 INFO  : 'jtag frequency' command is executed.
+12:23:57 INFO  : Sourcing of 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/ps7_init.tcl' is done.
+12:23:57 INFO  : Context for 'APU' is selected.
+12:23:57 INFO  : Hardware design information is loaded from 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/system.hdf'.
+12:23:57 INFO  : 'configparams force-mem-access 1' command is executed.
+12:23:57 INFO  : Context for 'APU' is selected.
+12:23:57 INFO  : 'stop' command is executed.
+12:23:57 INFO  : 'ps7_init' command is executed.
+12:23:57 INFO  : 'ps7_post_config' command is executed.
+12:23:57 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:23:57 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+12:23:57 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:23:57 INFO  : The application 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_PROGRAM/Debug/TRNG_PROGRAM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:23:57 INFO  : 'configparams force-mem-access 0' command is executed.
+12:23:57 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+loadhw -hw C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+dow C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_PROGRAM/Debug/TRNG_PROGRAM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:23:57 INFO  : Memory regions updated for context APU
+12:23:58 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:23:58 INFO  : 'con' command is executed.
+12:23:58 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+con
+----------------End of Script----------------
+
+12:23:58 INFO  : Launch script is exported to file 'C:\Users\Admin\Documents\vivado\exercise\TRNG\TRNG.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_trng_program.elf_on_local.tcl'
+12:24:22 INFO  : Disconnected from the channel tcfchan#4.
+12:24:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA" && level==0} -index 1' command is executed.
+12:24:23 INFO  : 'fpga -state' command is executed.
+12:24:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:24:24 INFO  : Jtag cable 'Digilent Arty Z7 003017B3FA2FA' is selected.
+12:24:24 INFO  : 'jtag frequency' command is executed.
+12:24:24 INFO  : Sourcing of 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/ps7_init.tcl' is done.
+12:24:24 INFO  : Context for 'APU' is selected.
+12:24:24 INFO  : Hardware design information is loaded from 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/system.hdf'.
+12:24:24 INFO  : 'configparams force-mem-access 1' command is executed.
+12:24:24 INFO  : Context for 'APU' is selected.
+12:24:24 INFO  : 'stop' command is executed.
+12:24:24 INFO  : 'ps7_init' command is executed.
+12:24:24 INFO  : 'ps7_post_config' command is executed.
+12:24:24 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:24:24 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+12:24:24 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:24:24 INFO  : The application 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_PROGRAM/Debug/TRNG_PROGRAM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:24:24 INFO  : 'configparams force-mem-access 0' command is executed.
+12:24:24 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+loadhw -hw C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+dow C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_PROGRAM/Debug/TRNG_PROGRAM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:24:24 INFO  : Memory regions updated for context APU
+12:24:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:24:25 INFO  : 'con' command is executed.
+12:24:25 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+con
+----------------End of Script----------------
+
+12:24:25 INFO  : Launch script is exported to file 'C:\Users\Admin\Documents\vivado\exercise\TRNG\TRNG.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_trng_program.elf_on_local.tcl'
+12:41:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:41:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA" && level==0} -index 1' command is executed.
+12:41:46 INFO  : FPGA configured successfully with bitstream "C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/TRNG_BOCK_wrapper.bit"
+12:41:51 INFO  : Disconnected from the channel tcfchan#5.
+12:41:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA" && level==0} -index 1' command is executed.
+12:41:52 INFO  : 'fpga -state' command is executed.
+12:41:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:41:52 INFO  : Jtag cable 'Digilent Arty Z7 003017B3FA2FA' is selected.
+12:41:52 INFO  : 'jtag frequency' command is executed.
+12:41:52 INFO  : Sourcing of 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/ps7_init.tcl' is done.
+12:41:52 INFO  : Context for 'APU' is selected.
+12:41:52 INFO  : Hardware design information is loaded from 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/system.hdf'.
+12:41:52 INFO  : 'configparams force-mem-access 1' command is executed.
+12:41:52 INFO  : Context for 'APU' is selected.
+12:41:52 INFO  : 'stop' command is executed.
+12:41:53 INFO  : 'ps7_init' command is executed.
+12:41:53 INFO  : 'ps7_post_config' command is executed.
+12:41:53 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:41:53 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+12:41:53 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:41:53 INFO  : The application 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_PROGRAM/Debug/TRNG_PROGRAM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:41:53 INFO  : 'configparams force-mem-access 0' command is executed.
+12:41:53 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+loadhw -hw C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+dow C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_PROGRAM/Debug/TRNG_PROGRAM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:41:53 INFO  : Memory regions updated for context APU
+12:41:53 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:41:53 INFO  : 'con' command is executed.
+12:41:53 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+con
+----------------End of Script----------------
+
+12:41:53 INFO  : Launch script is exported to file 'C:\Users\Admin\Documents\vivado\exercise\TRNG\TRNG.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_trng_program.elf_on_local.tcl'
+12:42:23 INFO  : Disconnected from the channel tcfchan#6.
+12:42:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA" && level==0} -index 1' command is executed.
+12:42:25 INFO  : 'fpga -state' command is executed.
+12:42:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:42:25 INFO  : Jtag cable 'Digilent Arty Z7 003017B3FA2FA' is selected.
+12:42:25 INFO  : 'jtag frequency' command is executed.
+12:42:25 INFO  : Sourcing of 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/ps7_init.tcl' is done.
+12:42:25 INFO  : Context for 'APU' is selected.
+12:42:25 INFO  : Hardware design information is loaded from 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/system.hdf'.
+12:42:25 INFO  : 'configparams force-mem-access 1' command is executed.
+12:42:25 INFO  : Context for 'APU' is selected.
+12:42:25 INFO  : 'stop' command is executed.
+12:42:25 INFO  : 'ps7_init' command is executed.
+12:42:25 INFO  : 'ps7_post_config' command is executed.
+12:42:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:42:25 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+12:42:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:42:25 INFO  : The application 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_PROGRAM/Debug/TRNG_PROGRAM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:42:25 INFO  : 'configparams force-mem-access 0' command is executed.
+12:42:25 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+loadhw -hw C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+dow C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_PROGRAM/Debug/TRNG_PROGRAM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:42:26 INFO  : Memory regions updated for context APU
+12:42:26 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:42:26 INFO  : 'con' command is executed.
+12:42:26 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+con
+----------------End of Script----------------
+
+12:42:26 INFO  : Launch script is exported to file 'C:\Users\Admin\Documents\vivado\exercise\TRNG\TRNG.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_trng_program.elf_on_local.tcl'
+12:42:44 INFO  : Disconnected from the channel tcfchan#7.
+12:42:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA" && level==0} -index 1' command is executed.
+12:42:46 INFO  : 'fpga -state' command is executed.
+12:42:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:42:46 INFO  : Jtag cable 'Digilent Arty Z7 003017B3FA2FA' is selected.
+12:42:46 INFO  : 'jtag frequency' command is executed.
+12:42:46 INFO  : Sourcing of 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/ps7_init.tcl' is done.
+12:42:46 INFO  : Context for 'APU' is selected.
+12:42:46 INFO  : Hardware design information is loaded from 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/system.hdf'.
+12:42:46 INFO  : 'configparams force-mem-access 1' command is executed.
+12:42:46 INFO  : Context for 'APU' is selected.
+12:42:46 INFO  : 'stop' command is executed.
+12:42:46 INFO  : 'ps7_init' command is executed.
+12:42:46 INFO  : 'ps7_post_config' command is executed.
+12:42:46 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:42:46 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+12:42:46 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:42:46 INFO  : The application 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_PROGRAM/Debug/TRNG_PROGRAM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:42:46 INFO  : 'configparams force-mem-access 0' command is executed.
+12:42:46 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+loadhw -hw C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+dow C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_PROGRAM/Debug/TRNG_PROGRAM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:42:47 INFO  : Memory regions updated for context APU
+12:42:47 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:42:47 INFO  : 'con' command is executed.
+12:42:47 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+con
+----------------End of Script----------------
+
+12:42:47 INFO  : Launch script is exported to file 'C:\Users\Admin\Documents\vivado\exercise\TRNG\TRNG.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_trng_program.elf_on_local.tcl'
+12:43:29 INFO  : Disconnected from the channel tcfchan#8.
+12:43:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA" && level==0} -index 1' command is executed.
+12:43:30 INFO  : 'fpga -state' command is executed.
+12:43:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:43:30 INFO  : Jtag cable 'Digilent Arty Z7 003017B3FA2FA' is selected.
+12:43:30 INFO  : 'jtag frequency' command is executed.
+12:43:30 INFO  : Sourcing of 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/ps7_init.tcl' is done.
+12:43:30 INFO  : Context for 'APU' is selected.
+12:43:30 INFO  : Hardware design information is loaded from 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/system.hdf'.
+12:43:30 INFO  : 'configparams force-mem-access 1' command is executed.
+12:43:30 INFO  : Context for 'APU' is selected.
+12:43:30 INFO  : 'stop' command is executed.
+12:43:31 INFO  : 'ps7_init' command is executed.
+12:43:31 INFO  : 'ps7_post_config' command is executed.
+12:43:31 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:43:31 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+12:43:31 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:43:31 INFO  : The application 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_PROGRAM/Debug/TRNG_PROGRAM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:43:31 INFO  : 'configparams force-mem-access 0' command is executed.
+12:43:31 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+loadhw -hw C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+dow C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_PROGRAM/Debug/TRNG_PROGRAM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:43:31 INFO  : Memory regions updated for context APU
+12:43:31 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:43:31 INFO  : 'con' command is executed.
+12:43:31 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+con
+----------------End of Script----------------
+
+12:43:31 INFO  : Launch script is exported to file 'C:\Users\Admin\Documents\vivado\exercise\TRNG\TRNG.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_trng_program.elf_on_local.tcl'
+12:43:57 INFO  : Disconnected from the channel tcfchan#9.
+12:43:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA" && level==0} -index 1' command is executed.
+12:43:58 INFO  : 'fpga -state' command is executed.
+12:43:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:43:58 INFO  : Jtag cable 'Digilent Arty Z7 003017B3FA2FA' is selected.
+12:43:58 INFO  : 'jtag frequency' command is executed.
+12:43:58 INFO  : Sourcing of 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/ps7_init.tcl' is done.
+12:43:58 INFO  : Context for 'APU' is selected.
+12:43:58 INFO  : Hardware design information is loaded from 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/system.hdf'.
+12:43:58 INFO  : 'configparams force-mem-access 1' command is executed.
+12:43:58 INFO  : Context for 'APU' is selected.
+12:43:58 INFO  : 'stop' command is executed.
+12:43:59 INFO  : 'ps7_init' command is executed.
+12:43:59 INFO  : 'ps7_post_config' command is executed.
+12:43:59 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:43:59 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+12:43:59 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:43:59 INFO  : The application 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_PROGRAM/Debug/TRNG_PROGRAM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:43:59 INFO  : 'configparams force-mem-access 0' command is executed.
+12:43:59 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+loadhw -hw C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+dow C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_PROGRAM/Debug/TRNG_PROGRAM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:43:59 INFO  : Memory regions updated for context APU
+12:43:59 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:43:59 INFO  : 'con' command is executed.
+12:43:59 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+con
+----------------End of Script----------------
+
+12:43:59 INFO  : Launch script is exported to file 'C:\Users\Admin\Documents\vivado\exercise\TRNG\TRNG.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_trng_program.elf_on_local.tcl'
+12:45:45 INFO  : Disconnected from the channel tcfchan#10.
+12:45:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA" && level==0} -index 1' command is executed.
+12:45:46 INFO  : 'fpga -state' command is executed.
+12:45:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:45:46 INFO  : Jtag cable 'Digilent Arty Z7 003017B3FA2FA' is selected.
+12:45:46 INFO  : 'jtag frequency' command is executed.
+12:45:46 INFO  : Sourcing of 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/ps7_init.tcl' is done.
+12:45:46 INFO  : Context for 'APU' is selected.
+12:45:46 INFO  : Hardware design information is loaded from 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/system.hdf'.
+12:45:46 INFO  : 'configparams force-mem-access 1' command is executed.
+12:45:46 INFO  : Context for 'APU' is selected.
+12:45:46 INFO  : 'stop' command is executed.
+12:45:47 INFO  : 'ps7_init' command is executed.
+12:45:47 INFO  : 'ps7_post_config' command is executed.
+12:45:47 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:45:47 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+12:45:47 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:45:47 INFO  : The application 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_PROGRAM/Debug/TRNG_PROGRAM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:45:47 INFO  : 'configparams force-mem-access 0' command is executed.
+12:45:47 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+loadhw -hw C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+dow C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_PROGRAM/Debug/TRNG_PROGRAM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:45:47 INFO  : Memory regions updated for context APU
+12:45:47 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:45:47 INFO  : 'con' command is executed.
+12:45:47 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+con
+----------------End of Script----------------
+
+12:45:47 INFO  : Launch script is exported to file 'C:\Users\Admin\Documents\vivado\exercise\TRNG\TRNG.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_trng_program.elf_on_local.tcl'
+12:51:55 INFO  : Disconnected from the channel tcfchan#11.
+12:51:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA" && level==0} -index 1' command is executed.
+12:51:57 INFO  : 'fpga -state' command is executed.
+12:51:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:51:57 INFO  : Jtag cable 'Digilent Arty Z7 003017B3FA2FA' is selected.
+12:51:57 INFO  : 'jtag frequency' command is executed.
+12:51:57 INFO  : Sourcing of 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/ps7_init.tcl' is done.
+12:51:57 INFO  : Context for 'APU' is selected.
+12:51:57 INFO  : Hardware design information is loaded from 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/system.hdf'.
+12:51:57 INFO  : 'configparams force-mem-access 1' command is executed.
+12:51:57 INFO  : Context for 'APU' is selected.
+12:51:57 INFO  : 'stop' command is executed.
+12:51:57 INFO  : 'ps7_init' command is executed.
+12:51:57 INFO  : 'ps7_post_config' command is executed.
+12:51:57 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:51:57 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+12:51:58 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:51:58 INFO  : The application 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_PROGRAM/Debug/TRNG_PROGRAM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:51:58 INFO  : 'configparams force-mem-access 0' command is executed.
+12:51:58 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+loadhw -hw C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+dow C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_PROGRAM/Debug/TRNG_PROGRAM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:51:58 INFO  : Memory regions updated for context APU
+12:51:58 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:51:58 INFO  : 'con' command is executed.
+12:51:58 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+con
+----------------End of Script----------------
+
+12:51:58 INFO  : Launch script is exported to file 'C:\Users\Admin\Documents\vivado\exercise\TRNG\TRNG.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_trng_program.elf_on_local.tcl'
+12:52:45 INFO  : Disconnected from the channel tcfchan#12.
+12:52:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA" && level==0} -index 1' command is executed.
+12:52:46 INFO  : 'fpga -state' command is executed.
+12:52:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:52:46 INFO  : Jtag cable 'Digilent Arty Z7 003017B3FA2FA' is selected.
+12:52:46 INFO  : 'jtag frequency' command is executed.
+12:52:46 INFO  : Sourcing of 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/ps7_init.tcl' is done.
+12:52:46 INFO  : Context for 'APU' is selected.
+12:52:46 INFO  : Hardware design information is loaded from 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/system.hdf'.
+12:52:46 INFO  : 'configparams force-mem-access 1' command is executed.
+12:52:46 INFO  : Context for 'APU' is selected.
+12:52:46 INFO  : 'stop' command is executed.
+12:52:46 INFO  : 'ps7_init' command is executed.
+12:52:46 INFO  : 'ps7_post_config' command is executed.
+12:52:47 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:52:47 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+12:52:47 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:52:47 INFO  : The application 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_PROGRAM/Debug/TRNG_PROGRAM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:52:47 INFO  : 'configparams force-mem-access 0' command is executed.
+12:52:47 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+loadhw -hw C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+dow C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_PROGRAM/Debug/TRNG_PROGRAM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:52:47 INFO  : Memory regions updated for context APU
+12:52:47 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:52:47 INFO  : 'con' command is executed.
+12:52:47 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+con
+----------------End of Script----------------
+
+12:52:47 INFO  : Launch script is exported to file 'C:\Users\Admin\Documents\vivado\exercise\TRNG\TRNG.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_trng_program.elf_on_local.tcl'
+12:56:23 INFO  : Disconnected from the channel tcfchan#13.
+12:56:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA" && level==0} -index 1' command is executed.
+12:56:24 INFO  : 'fpga -state' command is executed.
+12:56:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:56:24 INFO  : Jtag cable 'Digilent Arty Z7 003017B3FA2FA' is selected.
+12:56:24 INFO  : 'jtag frequency' command is executed.
+12:56:24 INFO  : Sourcing of 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/ps7_init.tcl' is done.
+12:56:24 INFO  : Context for 'APU' is selected.
+12:56:24 INFO  : Hardware design information is loaded from 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/system.hdf'.
+12:56:24 INFO  : 'configparams force-mem-access 1' command is executed.
+12:56:24 INFO  : Context for 'APU' is selected.
+12:56:24 INFO  : 'stop' command is executed.
+12:56:24 INFO  : 'ps7_init' command is executed.
+12:56:24 INFO  : 'ps7_post_config' command is executed.
+12:56:24 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:56:24 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+12:56:24 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:56:25 INFO  : The application 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_PROGRAM/Debug/TRNG_PROGRAM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:56:25 INFO  : 'configparams force-mem-access 0' command is executed.
+12:56:25 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+loadhw -hw C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+dow C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_PROGRAM/Debug/TRNG_PROGRAM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:56:25 INFO  : Memory regions updated for context APU
+12:56:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:56:25 INFO  : 'con' command is executed.
+12:56:25 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+con
+----------------End of Script----------------
+
+12:56:25 INFO  : Launch script is exported to file 'C:\Users\Admin\Documents\vivado\exercise\TRNG\TRNG.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_trng_program.elf_on_local.tcl'
+12:56:53 INFO  : Disconnected from the channel tcfchan#14.
+12:56:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA" && level==0} -index 1' command is executed.
+12:56:54 INFO  : 'fpga -state' command is executed.
+12:56:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:56:54 INFO  : Jtag cable 'Digilent Arty Z7 003017B3FA2FA' is selected.
+12:56:54 INFO  : 'jtag frequency' command is executed.
+12:56:54 INFO  : Sourcing of 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/ps7_init.tcl' is done.
+12:56:54 INFO  : Context for 'APU' is selected.
+12:56:54 INFO  : Hardware design information is loaded from 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/system.hdf'.
+12:56:54 INFO  : 'configparams force-mem-access 1' command is executed.
+12:56:54 INFO  : Context for 'APU' is selected.
+12:56:54 INFO  : 'stop' command is executed.
+12:56:54 INFO  : 'ps7_init' command is executed.
+12:56:55 INFO  : 'ps7_post_config' command is executed.
+12:56:55 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:56:55 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+12:56:55 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:56:55 INFO  : The application 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_PROGRAM/Debug/TRNG_PROGRAM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:56:55 INFO  : 'configparams force-mem-access 0' command is executed.
+12:56:55 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+loadhw -hw C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+dow C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_PROGRAM/Debug/TRNG_PROGRAM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:56:55 INFO  : Memory regions updated for context APU
+12:56:55 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:56:55 INFO  : 'con' command is executed.
+12:56:55 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+con
+----------------End of Script----------------
+
+12:56:55 INFO  : Launch script is exported to file 'C:\Users\Admin\Documents\vivado\exercise\TRNG\TRNG.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_trng_program.elf_on_local.tcl'
+13:02:52 INFO  : Disconnected from the channel tcfchan#15.
+13:02:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA" && level==0} -index 1' command is executed.
+13:02:53 INFO  : 'fpga -state' command is executed.
+13:02:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:02:53 INFO  : Jtag cable 'Digilent Arty Z7 003017B3FA2FA' is selected.
+13:02:53 INFO  : 'jtag frequency' command is executed.
+13:02:53 INFO  : Sourcing of 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/ps7_init.tcl' is done.
+13:02:53 INFO  : Context for 'APU' is selected.
+13:02:53 INFO  : Hardware design information is loaded from 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/system.hdf'.
+13:02:53 INFO  : 'configparams force-mem-access 1' command is executed.
+13:02:53 INFO  : Context for 'APU' is selected.
+13:02:53 INFO  : 'stop' command is executed.
+13:02:54 INFO  : 'ps7_init' command is executed.
+13:02:54 INFO  : 'ps7_post_config' command is executed.
+13:02:54 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:02:54 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+13:02:54 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:02:54 INFO  : The application 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_PROGRAM/Debug/TRNG_PROGRAM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+13:02:54 INFO  : 'configparams force-mem-access 0' command is executed.
+13:02:54 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+loadhw -hw C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+dow C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_PROGRAM/Debug/TRNG_PROGRAM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+13:02:54 INFO  : Memory regions updated for context APU
+13:02:54 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:02:54 INFO  : 'con' command is executed.
+13:02:54 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+con
+----------------End of Script----------------
+
+13:02:54 INFO  : Launch script is exported to file 'C:\Users\Admin\Documents\vivado\exercise\TRNG\TRNG.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_trng_program.elf_on_local.tcl'
+13:21:45 INFO  : Disconnected from the channel tcfchan#16.
+13:21:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA" && level==0} -index 1' command is executed.
+13:21:46 INFO  : 'fpga -state' command is executed.
+13:21:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:21:47 INFO  : Jtag cable 'Digilent Arty Z7 003017B3FA2FA' is selected.
+13:21:47 INFO  : 'jtag frequency' command is executed.
+13:21:47 INFO  : Sourcing of 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/ps7_init.tcl' is done.
+13:21:47 INFO  : Context for 'APU' is selected.
+13:21:47 INFO  : Hardware design information is loaded from 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/system.hdf'.
+13:21:47 INFO  : 'configparams force-mem-access 1' command is executed.
+13:21:47 INFO  : Context for 'APU' is selected.
+13:21:47 INFO  : 'stop' command is executed.
+13:21:47 INFO  : 'ps7_init' command is executed.
+13:21:47 INFO  : 'ps7_post_config' command is executed.
+13:21:47 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:21:47 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+13:21:47 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:21:47 INFO  : The application 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_PROGRAM/Debug/TRNG_PROGRAM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+13:21:47 INFO  : 'configparams force-mem-access 0' command is executed.
+13:21:47 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+loadhw -hw C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+dow C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_PROGRAM/Debug/TRNG_PROGRAM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+13:21:48 INFO  : Memory regions updated for context APU
+13:21:48 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:21:48 INFO  : 'con' command is executed.
+13:21:48 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+con
+----------------End of Script----------------
+
+13:21:48 INFO  : Launch script is exported to file 'C:\Users\Admin\Documents\vivado\exercise\TRNG\TRNG.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_trng_program.elf_on_local.tcl'
+13:22:05 INFO  : Disconnected from the channel tcfchan#17.
+13:22:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA" && level==0} -index 1' command is executed.
+13:22:06 INFO  : 'fpga -state' command is executed.
+13:22:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:22:07 INFO  : Jtag cable 'Digilent Arty Z7 003017B3FA2FA' is selected.
+13:22:07 INFO  : 'jtag frequency' command is executed.
+13:22:07 INFO  : Sourcing of 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/ps7_init.tcl' is done.
+13:22:07 INFO  : Context for 'APU' is selected.
+13:22:07 INFO  : Hardware design information is loaded from 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/system.hdf'.
+13:22:07 INFO  : 'configparams force-mem-access 1' command is executed.
+13:22:07 INFO  : Context for 'APU' is selected.
+13:22:07 INFO  : 'stop' command is executed.
+13:22:07 INFO  : 'ps7_init' command is executed.
+13:22:07 INFO  : 'ps7_post_config' command is executed.
+13:22:07 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:22:07 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+13:22:07 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:22:07 INFO  : The application 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_PROGRAM/Debug/TRNG_PROGRAM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+13:22:07 INFO  : 'configparams force-mem-access 0' command is executed.
+13:22:07 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+loadhw -hw C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+dow C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_PROGRAM/Debug/TRNG_PROGRAM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+13:22:07 INFO  : Memory regions updated for context APU
+13:22:07 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:22:07 INFO  : 'con' command is executed.
+13:22:07 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+con
+----------------End of Script----------------
+
+13:22:07 INFO  : Launch script is exported to file 'C:\Users\Admin\Documents\vivado\exercise\TRNG\TRNG.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_trng_program.elf_on_local.tcl'
+13:27:39 INFO  : Disconnected from the channel tcfchan#18.
+13:27:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA" && level==0} -index 1' command is executed.
+13:27:40 INFO  : 'fpga -state' command is executed.
+13:27:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:27:41 INFO  : Jtag cable 'Digilent Arty Z7 003017B3FA2FA' is selected.
+13:27:41 INFO  : 'jtag frequency' command is executed.
+13:27:41 INFO  : Sourcing of 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/ps7_init.tcl' is done.
+13:27:41 INFO  : Context for 'APU' is selected.
+13:27:41 INFO  : Hardware design information is loaded from 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/system.hdf'.
+13:27:41 INFO  : 'configparams force-mem-access 1' command is executed.
+13:27:41 INFO  : Context for 'APU' is selected.
+13:27:41 INFO  : 'stop' command is executed.
+13:27:42 INFO  : 'ps7_init' command is executed.
+13:27:42 INFO  : 'ps7_post_config' command is executed.
+13:27:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:27:42 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+13:27:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:27:42 INFO  : The application 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_PROGRAM/Debug/TRNG_PROGRAM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+13:27:42 INFO  : 'configparams force-mem-access 0' command is executed.
+13:27:42 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+loadhw -hw C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+dow C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_PROGRAM/Debug/TRNG_PROGRAM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+13:27:42 INFO  : Memory regions updated for context APU
+13:27:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:27:42 INFO  : 'con' command is executed.
+13:27:42 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+con
+----------------End of Script----------------
+
+13:27:42 INFO  : Launch script is exported to file 'C:\Users\Admin\Documents\vivado\exercise\TRNG\TRNG.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_trng_program.elf_on_local.tcl'
+13:28:07 INFO  : Disconnected from the channel tcfchan#19.
+13:28:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA" && level==0} -index 1' command is executed.
+13:28:08 INFO  : 'fpga -state' command is executed.
+13:28:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:28:08 INFO  : Jtag cable 'Digilent Arty Z7 003017B3FA2FA' is selected.
+13:28:08 INFO  : 'jtag frequency' command is executed.
+13:28:08 INFO  : Sourcing of 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/ps7_init.tcl' is done.
+13:28:09 INFO  : Context for 'APU' is selected.
+13:28:09 INFO  : Hardware design information is loaded from 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/system.hdf'.
+13:28:09 INFO  : 'configparams force-mem-access 1' command is executed.
+13:28:09 INFO  : Context for 'APU' is selected.
+13:28:09 INFO  : 'stop' command is executed.
+13:28:09 INFO  : 'ps7_init' command is executed.
+13:28:09 INFO  : 'ps7_post_config' command is executed.
+13:28:09 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:28:09 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+13:28:09 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:28:10 INFO  : The application 'C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_PROGRAM/Debug/TRNG_PROGRAM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+13:28:10 INFO  : 'configparams force-mem-access 0' command is executed.
+13:28:10 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+loadhw -hw C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_BOCK_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+dow C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sdk/TRNG_PROGRAM/Debug/TRNG_PROGRAM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+13:28:10 INFO  : Memory regions updated for context APU
+13:28:10 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:28:10 INFO  : 'con' command is executed.
+13:28:10 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Arty Z7 003017B3FA2FA"} -index 0
+con
+----------------End of Script----------------
+
+13:28:10 INFO  : Launch script is exported to file 'C:\Users\Admin\Documents\vivado\exercise\TRNG\TRNG.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_trng_program.elf_on_local.tcl'
+14:36:22 INFO  : Disconnected from the channel tcfchan#20.

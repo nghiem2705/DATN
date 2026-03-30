@@ -1,0 +1,8 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+C:/Users/Admin/Documents/Chaos_Based_Symmetric_Image_Encryption/TRNG/SUB_RING.v,1770739492,verilog,,C:/Users/Admin/Documents/Chaos_Based_Symmetric_Image_Encryption/TRNG/S_TRNG.v,,sub_ring_1;sub_ring_3,,,,,,,,
+C:/Users/Admin/Documents/Chaos_Based_Symmetric_Image_Encryption/TRNG/S_TRNG.v,1770779000,verilog,,C:/Users/Admin/Documents/Chaos_Based_Symmetric_Image_Encryption/TRNG/s_trng_tb.v,,S_TRNG,,,,,,,,
+C:/Users/Admin/Documents/Chaos_Based_Symmetric_Image_Encryption/TRNG/s_trng_tb.v,1771847124,verilog,,,,s_trng_tb,,,,,,,,
+C:/Users/Admin/Documents/vivado/exercise/TRNG/TRNG.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
