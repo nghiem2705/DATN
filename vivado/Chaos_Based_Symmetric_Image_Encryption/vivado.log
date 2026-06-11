@@ -1,0 +1,165 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Jun  7 13:06:31 2026
+# Process ID: 8780
+# Current directory: C:/Users/Admin/Documents/DATN/vivado/Chaos_Based_Symmetric_Image_Encryption
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24872 C:\Users\Admin\Documents\DATN\vivado\Chaos_Based_Symmetric_Image_Encryption\Chaos_Based_Symmetric_Image_Encryption.xpr
+# Log file: C:/Users/Admin/Documents/DATN/vivado/Chaos_Based_Symmetric_Image_Encryption/vivado.log
+# Journal file: C:/Users/Admin/Documents/DATN/vivado/Chaos_Based_Symmetric_Image_Encryption\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project -part xc7z020clg400-1 C:/Users/Admin/Documents/DATN/vivado/Chaos_Based_Symmetric_Image_Encryption/Chaos_Based_Symmetric_Image_Encryption.xpr
+INFO: [Project 1-313] Project file moved from '/home/vinhphat-josh/Repos/Chaos_Based_Symmetric_Image_Encryption/vivado/Chaos_Based_Symmetric_Image_Encryption' since last save.
+ERROR: [Project 1-208] No val for DA Elab Attr
+ERROR: [Runs 36-378] The checkpoint 'C:/Users/Admin/Documents/DATN/vivado/Chaos_Based_Symmetric_Image_Encryption/Chaos_Based_Symmetric_Image_Encryption.srcs/utils_1/imports/synth_1/FP_div.dcp' was created with 'Vivado v2023.2 (64-bit)', and cannot be opened in this version.
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Jun  7 13:26:34 2026...
+haos_Based_Symmetric_Image_Encryption/Chaos_Based_Symmetric_Image_Encryption.xpr
+INFO: [Project 1-313] Project file moved from '/home/vinhphat-josh/Repos/Chaos_Based_Symmetric_Image_Encryption/vivado/Chaos_Based_Symmetric_Image_Encryption' since last save.
+ERROR: [Project 1-208] No val for DA Elab Attr
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/Admin/Documents/DATN/vivado/Chaos_Based_Symmetric_Image_Encryption/Chaos_Based_Symmetric_Image_Encryption.srcs/utils_1/imports/synth_1/FP_div.dcp', nor could it be found using path 'C:/home/vinhphat-josh/Repos/Chaos_Based_Symmetric_Image_Encryption/vivado/Chaos_Based_Symmetric_Image_Encryption/Chaos_Based_Symmetric_Image_Encryption.srcs/utils_1/imports/synth_1/FP_div.dcp'.
+WARNING: [Project 1-865] Could not find the file C:/Users/Admin/Documents/DATN/vivado/Chaos_Based_Symmetric_Image_Encryption/Chaos_Based_Symmetric_Image_Encryption.srcs/utils_1/imports/synth_1/FP_div.dcp
+Scanning sources...
+Finished scanning sources
+CRITICAL WARNING: [Project 1-192] Failed to load run synth_1. Strategy Vivado Synthesis Defaults (Vivado Synthesis 2023) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run floating_point_add_synth_1. Strategy Vivado Synthesis Defaults (Vivado Synthesis 2023) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run floating_point_mul_synth_1. Strategy Vivado Synthesis Defaults (Vivado Synthesis 2023) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run floating_point_div_synth_1. Strategy Vivado Synthesis Defaults (Vivado Synthesis 2023) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run impl_1. Strategy Vivado Implementation Defaults (Vivado Implementation 2023) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run impl_1_copy_1. Strategy Vivado Implementation Defaults (Vivado Implementation 2023) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run floating_point_add_impl_1. Strategy Vivado Implementation Defaults (Vivado Implementation 2023) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run floating_point_mul_impl_1. Strategy Vivado Implementation Defaults (Vivado Implementation 2023) not recognized by Vivado. 
+
+CRITICAL WARNING: [Project 1-192] Failed to load run floating_point_div_impl_1. Strategy Vivado Implementation Defaults (Vivado Implementation 2023) not recognized by Vivado. 
+
+INFO: [Project 1-563] Overriding project part, 'xck26-sfvc784-2LV-c', with new part: 'xc7z020clg400-1'.
+CRITICAL WARNING: [Project 1-532] XML ERROR: Project Option SimulatorInstallDirModelSim has no valid value
+CRITICAL WARNING: [Project 1-532] XML ERROR: Project Option SimulatorInstallDirQuesta has no valid value
+CRITICAL WARNING: [Project 1-532] XML ERROR: Project Option SimulatorInstallDirXcelium has no valid value
+CRITICAL WARNING: [Project 1-532] XML ERROR: Project Option SimulatorInstallDirVCS has no valid value
+CRITICAL WARNING: [Project 1-532] XML ERROR: Project Option SimulatorInstallDirRiviera has no valid value
+CRITICAL WARNING: [Project 1-532] XML ERROR: Project Option SimulatorInstallDirActiveHdl has no valid value
+CRITICAL WARNING: [Project 1-532] XML ERROR: Project Option SimulatorGccInstallDirModelSim has no valid value
+CRITICAL WARNING: [Project 1-532] XML ERROR: Project Option SimulatorGccInstallDirQuesta has no valid value
+CRITICAL WARNING: [Project 1-532] XML ERROR: Project Option SimulatorGccInstallDirXcelium has no valid value
+CRITICAL WARNING: [Project 1-532] XML ERROR: Project Option SimulatorGccInstallDirVCS has no valid value
+CRITICAL WARNING: [Project 1-532] XML ERROR: Project Option SimulatorGccInstallDirRiviera has no valid value
+CRITICAL WARNING: [Project 1-532] XML ERROR: Project Option SimulatorGccInstallDirActiveHdl has no valid value
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorVersionXsim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorVersionModelSim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorVersionQuesta
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorVersionXcelium
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorVersionVCS
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorVersionRiviera
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorVersionActiveHdl
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorGccVersionXsim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorGccVersionModelSim
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorGccVersionQuesta
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorGccVersionXcelium
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorGccVersionVCS
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorGccVersionRiviera
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimulatorGccVersionActiveHdl
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name IPDefaultOutputPath
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name EnableResourceEstimation
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name SimCompileState
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name FeatureSet
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name DcpsUptoDate
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name ClassicSocBoot
+CRITICAL WARNING: [Project 1-505] Unrecognized Option Name LocalIPRepoLeafDirName
+CRITICAL WARNING: [Board 49-67] The board_part definition was not found for xilinx.com:kv260_som:part0:1.4. This can happen sometimes when you use custom board part. You can resolve this issue by setting 'board.repoPaths' parameter, pointing to the location of custom board files. Valid board_part values can be retrieved with the 'get_board_parts' Tcl command.
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: : Unexpected end of message
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: C:/Users/Admin/Documents/DATN/vivado/Chaos_Based_Symmetric_Image_Encryption/Chaos_Based_Symmetric_Image_Encryption.srcs/sources_1/ip/floating_point_sqrt/floating_point_sqrt.xci
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: : Unexpected end of message
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: C:/Users/Admin/Documents/DATN/vivado/Chaos_Based_Symmetric_Image_Encryption/Chaos_Based_Symmetric_Image_Encryption.srcs/sources_1/ip/floating_point_add/floating_point_add.xci
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: : Unexpected end of message
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: C:/Users/Admin/Documents/DATN/vivado/Chaos_Based_Symmetric_Image_Encryption/Chaos_Based_Symmetric_Image_Encryption.srcs/sources_1/ip/floating_point_mul/floating_point_mul.xci
+WARNING: [IP_Flow 19-395] Problem validating against XML schema: : Unexpected end of message
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: C:/Users/Admin/Documents/DATN/vivado/Chaos_Based_Symmetric_Image_Encryption/Chaos_Based_Symmetric_Image_Encryption.srcs/sources_1/ip/floating_point_div/floating_point_div.xci
+WARNING: [Project 1-231] Project 'Chaos_Based_Symmetric_Image_Encryption.xpr' was created with a future version and may or may not perform reliably with this version of Vivado. It has been opened in read-only mode for the protection of unrecognized data. Use 'File | Save Project As...' if you wish to alter a copy of the project.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/Admin/Documents/vivado/Vivado/2018.2/data/ip'.
+ERROR: [Common 17-39] 'open_project' failed due to earlier errors.
+update_compile_order -fileset sources_1
+close_project
+create_project DATN_V1 C:/Users/Admin/Documents/vivado/exercise/DATN_V1 -part xc7z020clg400-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/Admin/Documents/vivado/Vivado/2018.2/data/ip'.
+set_property board_part digilentinc.com:arty-z7-20:part0:1.1 [current_project]
+add_files -norecurse {C:/Users/Admin/Documents/DATN/sigma/sigma_tb.v C:/Users/Admin/Documents/DATN/AES/addroundkey.v C:/Users/Admin/Documents/DATN/AES/mixcolumns.v C:/Users/Admin/Documents/DATN/CTR_mode_feistel_encrypt/CTR_mode_feistel_decrypt.v C:/Users/Admin/Documents/DATN/AES/subbytes.v C:/Users/Admin/Documents/DATN/mixer/mixer.v C:/Users/Admin/Documents/DATN/extractor/extractor_tb.v C:/Users/Admin/Documents/DATN/AES/shiftrows.v C:/Users/Admin/Documents/DATN/F/F_tb.v C:/Users/Admin/Documents/DATN/feistel_encrypt/feistel_encrypt.v C:/Users/Admin/Documents/DATN/PRNG/PRNG.v C:/Users/Admin/Documents/DATN/feistel_decrypt/feistel_decrypt.v C:/Users/Admin/Documents/DATN/sawtooth/sawtooth_tb.v C:/Users/Admin/Documents/DATN/CTR_mode_feistel_encrypt/CTR_mode_feistel_decrypt_tb.v C:/Users/Admin/Documents/DATN/CTR_mode_feistel_encrypt/CTR_mode_feistel_encrypt.v C:/Users/Admin/Documents/DATN/key_schedule_5r/key_schedule_5r.v C:/Users/Admin/Documents/DATN/sbox/sbox_tb.v C:/Users/Admin/Documents/DATN/sawtooth/sawtooth.v C:/Users/Admin/Documents/DATN/sigma/sigma.v C:/Users/Admin/Documents/DATN/feistel_decrypt/feistel_decrypt_tb.v C:/Users/Admin/Documents/DATN/top/top.v C:/Users/Admin/Documents/DATN/F/F.v C:/Users/Admin/Documents/DATN/TRNG/SUB_RING.v C:/Users/Admin/Documents/DATN/key_schedule_5r/key_schedule_5r_tb.v C:/Users/Admin/Documents/DATN/AES/mixcolumns_tb.v C:/Users/Admin/Documents/DATN/AES/shiftrows_tb.v C:/Users/Admin/Documents/DATN/affine_transform/affine_transform_tb.v C:/Users/Admin/Documents/DATN/PRNG/PRNG_tb.v C:/Users/Admin/Documents/DATN/TRNG/S_TRNG.v C:/Users/Admin/Documents/DATN/affine_transform/affine_transform.v C:/Users/Admin/Documents/DATN/feistel_encrypt/feistel_encrypt_tb.v C:/Users/Admin/Documents/DATN/key_gen/key_generator.v C:/Users/Admin/Documents/DATN/sbox/sbox.v C:/Users/Admin/Documents/DATN/sbox_generator/sbox_generator.v C:/Users/Admin/Documents/DATN/top/top_tb.v C:/Users/Admin/Documents/DATN/sbox_generator/sbox_generator_tb.v C:/Users/Admin/Documents/DATN/CTR_mode_feistel_encrypt/CTR_mode_feistel_encrypt_tb.v C:/Users/Admin/Documents/DATN/TRNG/M_TRNG.v C:/Users/Admin/Documents/DATN/key_gen/key_generator_tb.v C:/Users/Admin/Documents/DATN/AES/subbytes_tb.v C:/Users/Admin/Documents/DATN/extractor/extractor.v}
+add_files -fileset constrs_1 -norecurse C:/Users/Admin/Documents/vivado/exercise/Arty-Z7-20-Master.xdc
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property top top [current_fileset]
+update_compile_order -fileset sources_1
+set_property top top [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_runs synth_1 -jobs 2
+[Sun Jun  7 13:26:12 2026] Launched synth_1...
+Run output will be captured here: C:/Users/Admin/Documents/vivado/exercise/DATN_V1/DATN_V1.runs/synth_1/runme.log
+set_property  ip_repo_paths  C:/Users/Admin/Documents/vivado [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [IP_Flow 19-2338] Canceling the changes to the IP catalog. Reverting the catalog back to its previous state.
+INFO: [IP_Flow 19-2340] The IP catalog has been returned to its previous state.
+update_ip_catalog: Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 857.723 ; gain = 0.000
+INFO: [Common 17-344] 'update_ip_catalog' was cancelled
+set_property  ip_repo_paths  C:/Users/Admin/Documents/vivado/20 [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Admin/Documents/vivado/20'.
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Admin/Documents/vivado/20'.
+set_property  ip_repo_paths  {c:/Users/Admin/Documents/vivado/20 C:/Users/Admin/Documents/vivado/Vivado/2018.2/data/ip} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Admin/Documents/vivado/20'.
+WARNING: [IP_Flow 19-2207] Repository 'c:/Users/Admin/Documents/vivado/Vivado/2018.2/data/ip' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Admin/Documents/vivado/Vivado/2018.2/data/ip'.
+set_property  ip_repo_paths  {} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+set_property  ip_repo_paths  C:/Users/Admin/Documents/vivado/Vivado/2018.2/data/ip [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2207] Repository 'c:/Users/Admin/Documents/vivado/Vivado/2018.2/data/ip' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Admin/Documents/vivado/Vivado/2018.2/data/ip'.
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2207] Repository 'c:/Users/Admin/Documents/vivado/Vivado/2018.2/data/ip' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Admin/Documents/vivado/Vivado/2018.2/data/ip'.
+update_ip_catalog
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2207] Repository 'c:/Users/Admin/Documents/vivado/Vivado/2018.2/data/ip' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Admin/Documents/vivado/Vivado/2018.2/data/ip'.
+update_ip_catalog
+update_ip_catalog
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2207] Repository 'c:/Users/Admin/Documents/vivado/Vivado/2018.2/data/ip' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Admin/Documents/vivado/Vivado/2018.2/data/ip'.
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2207] Repository 'c:/Users/Admin/Documents/vivado/Vivado/2018.2/data/ip' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Admin/Documents/vivado/Vivado/2018.2/data/ip'.
+update_ip_catalog
+update_ip_catalog
+update_ip_catalog
+update_ip_catalog
+update_ip_catalog
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Jun  7 13:43:27 2026...
